@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/7.0.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'dev' ]
+2 info using npm@4.0.1
+3 info using node@v7.0.0
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle forum@1.0.0~predev: forum@1.0.0
+6 silly lifecycle forum@1.0.0~predev: no script for predev, continuing
+7 info lifecycle forum@1.0.0~dev: forum@1.0.0
+8 verbose lifecycle forum@1.0.0~dev: unsafe-perm in lifecycle true
+9 verbose lifecycle forum@1.0.0~dev: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/XmacZone/Desktop/forum/node_modules/.bin:/Users/XmacZone/anaconda3/bin:/Users/XmacZone/anaconda/bin:/Users/XmacZone/miniconda2/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/XmacZone/Library/Android/sdk/platform-tools
+10 verbose lifecycle forum@1.0.0~dev: CWD: /Users/XmacZone/Desktop/forum
+11 silly lifecycle forum@1.0.0~dev: Args: [ '-c', 'webpack-server' ]
+12 info lifecycle forum@1.0.0~dev: Failed to exec dev script
+13 verbose stack Error: forum@1.0.0 dev: `webpack-server`
+13 verbose stack spawn ENOENT
+13 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:33:16)
+13 verbose stack     at emitTwo (events.js:106:13)
+13 verbose stack     at ChildProcess.emit (events.js:191:7)
+13 verbose stack     at maybeClose (internal/child_process.js:877:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+14 verbose pkgid forum@1.0.0
+15 verbose cwd /Users/XmacZone/Desktop/forum
+16 error Darwin 15.6.0
+17 error argv "/usr/local/Cellar/node/7.0.0/bin/node" "/usr/local/bin/npm" "run" "dev"
+18 error node v7.0.0
+19 error npm  v4.0.1
+20 error file sh
+21 error code ELIFECYCLE
+22 error errno ENOENT
+23 error syscall spawn
+24 error forum@1.0.0 dev: `webpack-server`
+24 error spawn ENOENT
+25 error Failed at the forum@1.0.0 dev script 'webpack-server'.
+25 error Make sure you have the latest version of node.js and npm installed.
+25 error If you do, this is most likely a problem with the forum package,
+25 error not with npm itself.
+25 error Tell the author that this fails on your system:
+25 error     webpack-server
+25 error You can get information on how to open an issue for this project with:
+25 error     npm bugs forum
+25 error Or if that isn't available, you can get their info via:
+25 error     npm owner ls forum
+25 error There is likely additional logging output above.
+26 verbose exit [ 1, true ]

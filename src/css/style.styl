@@ -1,0 +1,147 @@
+main-red = #F75341
+gray1 = #fafafa
+gray2 = #eaeaea
+gray3 = #212121
+
+header
+  height: 145px
+  width: 1000px
+  margin: 0 auto
+  // background: linear-gradient(main-red 15px,white 0)
+  position: relative
+  #title
+    position: absolute
+    margin: 0
+    right: 0
+    top: 43px
+    color: #d2371d
+    font-size: 12pt
+    font-family: "黑体"
+  .actions
+    position: absolute
+    right: 0
+    top: 73px
+    color: #898989
+    font-size: 12pt
+    font-family: "黑体"
+    span+span:before
+      content:'|'
+      margin-right: 2px
+  .nav
+    position: absolute
+    right: 0
+    bottom: 15px
+    font-size: 14pt
+    font-family: "黑体"
+    span:not(:last-child)
+      margin: 0px 16px
+    span:last-child
+      margin: 0px 0px 0 16px
+  .logo
+    background-image: url('../../assets/logo.png')
+    background-repeat: no-repeat
+    height: 72px
+    transform: translateY(43px)
+
+body:before
+  content:''
+  width: 100%
+  height: 15px
+  position: absolute
+  background-color: main-red
+
+main
+  width: 100%
+  :after
+    content: ''
+    display: block
+    clear: both
+  .slide
+    width: 100%
+    height: 500px
+    background:url('../../assets/banner.png')
+    background-repeat: no-repeat
+    background-position: center
+  .container
+    width: 1000px
+    position: relative
+    margin: 0 auto
+    .item
+      width: 500px
+      height: 500px
+      float: left
+      .subitem
+        width: 250px
+        height: 250px
+        float: left
+        font-size: 12pt
+        font-family: "黑体"
+        text-align: center
+      #subitem1
+        background:rgba(33,33,33,0.8) url('../../assets/插图4.png')
+        background-blend-mode: multiply
+        hr
+          margin: 0 auto
+          border: 0
+          height: 1px
+          width: 130px
+          background: white
+        p
+          color: white
+          margin: 8px
+        p:first-child
+          margin-top: 100px
+      #subitem2
+        background: gray1
+        text-align: center
+        p
+          color: gray3
+          margin-top: 116px
+      #subitem3
+        background: gray2
+        p
+          color: gray3
+        p:first-child
+          margin-top: 116px
+      #subitem4
+        background:rgba(33,33,33,0.8) url('../../assets/插图3.png')
+        background-blend-mode: multiply
+        p
+          color: white
+          margin-top: 116px
+    #item1
+      background: url('../../assets/12.png') gray1
+    #item3
+      background: url('../../assets/插图2.png')
+    #item4
+      background: gray1
+
+footer
+  margin-top: 45px
+  padding-top: 55px
+  position: relative
+  .sponsor
+    background: url('../../assets/赞助商.png')
+    height: 50px
+    background-repeat: no-repeat
+    background-position: center
+  .sponsor:before
+    content:''
+    height: 15px
+    width: 100%
+    background: main-red
+    top: -5px
+    position: absolute
+  .sponsor:after
+    content:''
+    height: 1px
+    width: 100%
+    background: black
+    top: 40px
+    position: absolute
+  .info
+    width: auto
+    max-width: max-content
+    margin: 8px auto 8px
+    color: gray
+    font-size: 10pt
