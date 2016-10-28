@@ -1,7 +1,7 @@
 <template>
 <div id="app">
   <navigator></navigator>
-  <home></home>
+  <guests></guests>
   <foot></foot>
 </div>
 </template>
@@ -9,13 +9,15 @@
 <script>
 import Navigator from './components/Navigator.vue'
 import Home from './components/Home.vue'
+import Guests from './components/Guests.vue'
 import Foot from './components/Footer'
 export default {
   name: 'app',
   components: {
     Navigator,
     Home,
-    Foot
+    Foot,
+    Guests
   }
 }
 </script>
