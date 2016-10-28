@@ -2,7 +2,13 @@
   <main>
       <div class="slide"></div>
       <div class="container">
-          <div class="item" id="item1"></div>
+          <div class="item" id="item1">
+            <div class="baoming">
+              <p>
+                报名参会(进入注册系统)
+              </p>
+            </div>
+          </div>
           <div class="item" id="item2">
               <div class="subitem" id="subitem1">
                   <p>
@@ -100,6 +106,21 @@ main
           margin-top: 116px
     #item1
       background: url('../assets/12.png') gray1
+      .baoming
+        background: main-red
+        background-image:linear-gradient(135deg,black 60%,main-red 0)
+        background-size:100% 4px
+        background-repeat:no-repeat
+        background-position:0 100%
+        height:56px
+        width:244px
+        text-align:center
+        line-height:56px
+        margin: 0 auto
+        margin-top:350px
+        font-size:18px
+        font-family:"黑体"
+        color:white
     #item3
       background: url('../assets/2.png')
     #item4
