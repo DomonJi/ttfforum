@@ -1,15 +1,6 @@
 <template lang="html">
   <main>
-    <div class="image">
-      <div class="title">
-        <p>
-          国际顶尖演讲嘉宾
-        </p>
-        <p>
-          Invited Speakers
-        </p>
-      </div>
-    </div>
+    <big-title cn="国际顶尖演讲嘉宾" en="Invited Speakers"></big-title>
     <div class="container">
       <div class="item" id="item1">
         <div class="avator" id="avator1">
@@ -228,7 +219,12 @@ Changhong Engineering Technology Center,China
 </template>
 
 <script>
-export default {}
+import BigTitle from './BigTitle.vue'
+export default {
+  components: {
+    BigTitle
+  }
+}
 </script>
 
 <style lang="stylus" scoped>
@@ -238,27 +234,6 @@ main
     content: ''
     display: block
     clear: both
-  .image
-    width:1000px
-    height:250px
-    background:main-red
-    margin:0 auto
-    .title
-      color:white
-      font-family:"黑体"
-      width:360px
-      height:150px
-      margin:0 auto
-      border:7px solid white
-      transform:translateY(50px)
-      box-sizing:border-box
-      text-align:center
-      p:first-child
-        font-size:34px
-        line-height:24px
-      p:last-child
-        font-size:20px
-        line-height:12px
   .container
     width: 1000px
     position: relative
