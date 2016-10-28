@@ -275,7 +275,7 @@ main
         margin-right:18px
         margin-top:18px
         font-size:10px
-        line-height:18px
+        line-height:16px
         &:first-line
           font-size:16px
           line-height:24px
