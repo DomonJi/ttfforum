@@ -10,7 +10,7 @@
           <span>首页</span>
           <span>新闻资讯</span>
           <span>知识分享</span>
-          <span>科研小组</span>
+          <span>历届会议</span>
           <span>会务组织</span>
           <span>联系我们</span>
       </div>
@@ -21,7 +21,7 @@
 export default {}
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 @import '../style/style.styl'
 header
   height: 145px

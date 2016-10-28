@@ -32,7 +32,21 @@
           <div class="item" id="item3"></div>
           <div class="item" id="item4">
               <div class="agenda">
-                  <!-- <p>大会介绍</p> -->
+                  <p>
+                    大会介绍
+                  <br>
+                    General Introduction
+                  </p>
+              </div>
+              <div class="text-container">
+                <p>
+                当你的企业多元化转型过程中寻找战略方向的时候，围绕经济学“最简线性模型”的一系列战略理念和决策工具将为你的企业提供最前沿的理论支撑。 <br>
+                ……
+              </p>
+              </div>
+              <div class="more">
+                <span>更多</span>
+                <span id="arrow"></span>
               </div>
           </div>
       </div>
@@ -90,12 +104,12 @@ main
         background: gray1
         text-align: center
         p
-          color: gray3
+          color: blacktext
           margin-top: 116px
       #subitem3
         background: gray2
         p
-          color: gray3
+          color: blacktext
         p:first-child
           margin-top: 116px
       #subitem4
@@ -125,4 +139,42 @@ main
       background: url('../assets/2.png')
     #item4
       background: gray1
+      .more
+        line-height:20px
+        margin:0 auto
+        color:blacktext
+        font-family:"黑体"
+        text-align:center
+        span
+          display:inline-block
+          margin:0
+          vertical-align:top
+        #arrow
+          width:20px
+          height:20px
+          background:url('../assets/more 20x20.png')
+          border-radius:50%
+      .text-container
+        width:304px
+        margin:0 auto
+        text-align:center
+        font-family:"黑体"
+        font-size:16px
+        line-height:28px
+        color:#555555
+      .agenda
+        width:158px
+        height:100px
+        margin:0 auto
+        text-align:center
+        margin-top:126px
+        border:4px solid main-red
+        color:main-red
+        font-family:"黑体"
+        p
+          margin-top:25px
+          font-size:14px
+          line-height:24px
+          &:first-line
+            font-size:18px
 </style>
