@@ -1,7 +1,7 @@
 <template>
 <div id="app">
   <navigator></navigator>
-  <Registration></Registration>
+  <Affairs></Affairs>
   <foot></foot>
 </div>
 </template>
@@ -43,11 +43,12 @@ export default {
 p
   font-family:"Helvetica Neue", "STHeiti"
 #app:before
-  content:''
-  width: 100%
-  height: 15px
-  position: absolute
-  background-color: main-red
+  @media screen and (min-width: 1000px)
+    content:''
+    width: 100%
+    height: 15px
+    position: absolute
+    background-color: main-red
 main
   width: 100%
   :after

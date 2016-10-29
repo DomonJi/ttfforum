@@ -33,6 +33,10 @@ export default {
   width:100%
   max-width:1000px
   height:250px
+  @media screen and (max-width: 1000px)
+    height:100px
+    vertical-align:center
+    transform:translateY(-80px)
   background:main-red
   margin:0 auto
   .title
@@ -41,14 +45,21 @@ export default {
     width:360px
     height:150px
     margin:0 auto
-    border:7px solid white
+    @media screen and (min-width: 1000px)
+      border:7px solid white
     transform:translateY(50px)
     box-sizing:border-box
     text-align:center
     p:first-child
       font-size:34px
       line-height:24px
+      @media screen and (max-width: 1000px)
+        font-size:20px
+        /*line-height:28px*/
+        transform:translateY(15px)
     p:last-child
       font-size:20px
       line-height:12px
+      @media screen and (max-width: 1000px)
+        display:none
 </style>

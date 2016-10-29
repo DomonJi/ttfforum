@@ -5,7 +5,7 @@
           <div class="item" id="item1">
             <div class="baoming">
               <p>
-                报名参会(进入注册系统)
+                报名参会
               </p>
             </div>
           </div>
@@ -67,20 +67,31 @@ main
     clear: both
   .slide
     width: 100%
+    /*max-width:1000px*/
     height: 500px
+    @media screen and (max-width: 1000px)
+      height:300px
+      background-size:cover
+      background-position:65% 100%
     background:url('../assets/banner.png')
     background-repeat: no-repeat
     background-position: center
+    /*background-size:cover*/
   .container
-    width: 1000px
+    width: 100%
+    max-width:1000px
     position: relative
     margin: 0 auto
     .item
-      width: 500px
+      width: 50%
+      max-width:500px
       height: 500px
       float: left
+      @media screen and (max-width: 1000px)
+        height:300px
       .subitem
-        width: 250px
+        width: 50%
+        max-width:250px
         height: 250px
         float: left
         font-size: 16px
@@ -120,6 +131,8 @@ main
           margin-top: 116px
     #item1
       background: url('../assets/12.png') gray1
+      background-size:cover
+      background-repeat:no-repeat
       .baoming
         background: main-red
         background-image:linear-gradient(135deg,black 60%,main-red 0)
@@ -132,11 +145,26 @@ main
         line-height:56px
         margin: 0 auto
         margin-top:350px
+        @media screen and (max-width: 1000px)
+          margin-top:12rem
+          width:120px
+          height:40px
+          line-height:40px
         font-size:18px
         font-family:"黑体"
         color:white
+      @media screen and (max-width: 1000px)
+        width:100%
+        max-width:1000px
+        background-position:center
+        background-size:26rem 20rem
+    #item2
+      @media screen and (max-width: 1000px)
+        display:none
     #item3
       background: url('../assets/2.png')
+      @media screen and (max-width: 1000px)
+        display:none
     #item4
       background: gray1
       .more
@@ -145,6 +173,8 @@ main
         color:blacktext
         font-family:"黑体"
         text-align:center
+        @media screen and (max-width: 1000px)
+          color:white
         span
           display:inline-block
           margin:0
@@ -162,12 +192,17 @@ main
         font-size:16px
         line-height:28px
         color:#555555
+        @media screen and (max-width: 1000px)
+          color:white
       .agenda
         width:158px
         height:100px
         margin:0 auto
         text-align:center
         margin-top:126px
+        @media screen and (max-width: 1000px)
+          margin-top:36px
+          height:60px
         border:4px solid main-red
         color:main-red
         font-family:"黑体"
@@ -175,6 +210,17 @@ main
           margin-top:25px
           font-size:14px
           line-height:24px
+          @media screen and (max-width: 1000px)
+            margin-top:1rem
+            line-height:1.2rem
           &:first-line
             font-size:18px
+          @media screen and (max-width: 1000px)
+            color:white
+      @media screen and (max-width: 1000px)
+        background:rgba(33,33,33,0.8) url('../assets/4.png')
+        background-blend-mode: multiply
+        width:100%
+        max-width:1000px
+        background-position:cover
 </style>

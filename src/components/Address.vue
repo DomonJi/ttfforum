@@ -89,9 +89,14 @@ export default {
 
 <style lang="stylus" scoped>
 @import '../style/style.styl'
-
+#map
+  @media screen and (max-width: 1000px)
+    display:none
 main
   .container
+    box-sizing:border-box
+    @media screen and (max-width: 1000px)
+      padding:5%
     p
       font-size:18px
       line-height:28px

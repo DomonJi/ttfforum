@@ -20,6 +20,10 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+.container
+    box-sizing:border-box
+    @media screen and (max-width: 1000px)
+      padding:5%
 .title
   margin-top:40px
   margin-bottom:40px

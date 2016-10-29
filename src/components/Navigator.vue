@@ -1,18 +1,20 @@
 <template lang="html">
   <header>
       <div class="logo"></div>
-      <p id="title">2016 TTF论坛(I)暨第五届CMF趋势论坛</p>
-      <div class="actions">
-          <span>EN</span>
-          <span>中文</span>
-      </div>
-      <div class="nav">
-          <router-link to="/">首页</router-link>
-          <span>新闻资讯</span>
-          <span>知识分享</span>
-          <span>历届会议</span>
-          <router-link to="/guests">会务组织</router-link>
-          <router-link to="/">联系我们</router-link>
+      <div class="navinfo">
+        <p id="title">2016 TTF论坛(I)暨第五届CMF趋势论坛</p>
+        <div class="actions">
+            <span>EN</span>
+            <span>中文</span>
+        </div>
+        <div class="nav">
+            <router-link to="/">首页</router-link>
+            <span>新闻资讯</span>
+            <span>知识分享</span>
+            <span>历届会议</span>
+            <router-link to="/guests">会务组织</router-link>
+            <router-link to="/">联系我们</router-link>
+        </div>
       </div>
   </header>
 </template>
@@ -30,6 +32,12 @@ header
   margin: 0 auto
   // background: linear-gradient(main-red 15px,white 0)
   position: relative
+  @media screen and (max-width: 1000px)
+    height:48px
+    background:gray1
+  .navinfo
+    @media screen and (max-width: 1000px)
+      display:none
   #title
     position: absolute
     margin: 0
@@ -61,6 +69,13 @@ header
   .logo
     background-image: url('../assets/logo.png')
     background-repeat: no-repeat
-    height: 72px
+    width:180px
+    height:72px
+    background-size:cover
     transform: translateY(43px)
+    @media screen and (max-width: 1000px)
+      transform: translateY(13px)
+      height:24px
+      width:60px
+      margin:0 auto
 </style>

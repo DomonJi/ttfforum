@@ -18,6 +18,8 @@ export default {}
 
 
 footer
+  @media screen and (max-width: 1000px)
+    display:none
   margin-top: 45px
   padding-top: 55px
   position: relative
