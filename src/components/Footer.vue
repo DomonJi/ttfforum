@@ -24,6 +24,7 @@ footer
   .sponsor
     background: url('../assets/sponsor.png')
     height: 50px
+    width:100%
     background-repeat: no-repeat
     background-position: center
   .sponsor:before

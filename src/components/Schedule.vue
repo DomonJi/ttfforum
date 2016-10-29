@@ -1,0 +1,40 @@
+<template lang="html">
+<main>
+  <big-title cn="11-12日会议日程" en="Meeting Schedule"></big-title>
+  <div class="container">
+    <div class="title">
+    </div>
+    <div class="schedule">
+    </div>
+  </div>
+</main>
+</template>
+
+<script>
+import BigTitle from './BigTitle.vue'
+export default {
+  components: {
+    BigTitle
+  }
+}
+</script>
+
+<style lang="stylus" scoped>
+.title
+  margin-top:40px
+  margin-bottom:40px
+  background:url('../assets/title.png')
+  width:100%
+  height:162px
+  background-repeat:no-repeat
+  background-position:center
+.schedule
+  background:url('../assets/Meeting.jpg')
+  width:100%
+  height:630px
+  background-repeat:no-repeat
+  background-position:center
+  margin:40px 0
+  background-size:cover
+  margin-bottom:300px
+</style>

@@ -105,11 +105,12 @@ main
     display: block
     clear: both
   .container
-    width: 1000px
+    /*width: 1000px
     position: relative
-    margin: 0 auto
+    margin: 0 auto*/
     .item
-      width: 500px
+      width: 50%
+      max-width:500px
       height: 500px
       float: left
       background:rgba(250,250,250,0.8)
@@ -132,7 +133,8 @@ main
         background-image:url('../assets/workshop/2.png')
       p
         display:inline-block
-        width:250px
+        width:70%
+        max-width:250px
         color:blacktext
         font-size:18px
         line-height:28px

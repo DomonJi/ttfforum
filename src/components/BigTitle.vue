@@ -30,7 +30,8 @@ export default {
 @import '../style/style.styl'
 
 .image
-  width:1000px
+  width:100%
+  max-width:1000px
   height:250px
   background:main-red
   margin:0 auto

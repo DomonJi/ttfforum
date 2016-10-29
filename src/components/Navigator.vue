@@ -7,12 +7,12 @@
           <span>中文</span>
       </div>
       <div class="nav">
-          <span>首页</span>
+          <router-link to="/">首页</router-link>
           <span>新闻资讯</span>
           <span>知识分享</span>
           <span>历届会议</span>
-          <span>会务组织</span>
-          <span>联系我们</span>
+          <router-link to="/guests">会务组织</router-link>
+          <router-link to="/">联系我们</router-link>
       </div>
   </header>
 </template>
@@ -25,7 +25,8 @@ export default {}
 @import '../style/style.styl'
 header
   height: 145px
-  width: 1000px
+  width: 100%
+  max-width:1000px
   margin: 0 auto
   // background: linear-gradient(main-red 15px,white 0)
   position: relative

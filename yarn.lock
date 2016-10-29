@@ -5570,6 +5570,10 @@ vue-loader@^9.4.0:
     vue-template-compiler "^2.0.0-rc.3"
     vue-template-es2015-compiler "^1.0.0"
 
+vue-router:
+  version "2.0.1"
+  resolved "http://registry.npm.taobao.org/vue-router/download/vue-router-2.0.1.tgz#88b83cdc9497bad5b20b579e847a7e7240e221dd"
+
 vue-style-loader@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/vue-style-loader/download/vue-style-loader-1.0.0.tgz#abeb7bd0f46313083741244d3079d4f14449e049"
