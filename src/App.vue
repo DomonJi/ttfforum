@@ -1,7 +1,7 @@
 <template>
 <div id="app">
   <navigator></navigator>
-  <Affairs></Affairs>
+  <home></home>
   <foot></foot>
 </div>
 </template>

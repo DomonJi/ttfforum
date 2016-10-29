@@ -28,13 +28,37 @@
               <div class="subitem" id="subitem4">
                   <p>会议餐饮</p>
               </div>
+
           </div>
-          <div class="item" id="item3"></div>
+          <div class="item" id="item3">
+            <div class="phone">
+              <div class="agenda">
+                  <p>
+                    大会服务
+                  </p>
+              </div>
+              <div class="flexitem">
+                <div class="phoneitem" id="phoneitem1"><p>
+                  会议日程工作坊
+                </p></div>
+                <div class="phoneitem" id="phoneitem2"><p>
+                  嘉宾介绍
+                </p></div>
+                <div class="phoneitem" id="phoneitem3"><p>
+                  会议地址与交通
+                </p></div>
+                <div class="phoneitem" id="phoneitem4"><p>
+                  会议餐饮
+                </p></div>
+              </div>
+
+            </div>
+          </div>
           <div class="item" id="item4">
               <div class="agenda">
                   <p>
                     大会介绍
-                  <br>
+                  </p><p>
                     General Introduction
                   </p>
               </div>
@@ -146,7 +170,7 @@ main
         margin: 0 auto
         margin-top:350px
         @media screen and (max-width: 1000px)
-          margin-top:12rem
+          margin-top:10rem
           width:120px
           height:40px
           line-height:40px
@@ -154,17 +178,93 @@ main
         font-family:"黑体"
         color:white
       @media screen and (max-width: 1000px)
+        background:url('../assets/640x300.png')
         width:100%
+        height:240px
         max-width:1000px
-        background-position:center
-        background-size:26rem 20rem
+        background-position:50% 10%
     #item2
       @media screen and (max-width: 1000px)
         display:none
     #item3
       background: url('../assets/2.png')
+      .flexitem
+        display:flex
+        width:100%
+        justify-content:space-between
+        /*align-items:center*/
+        .phoneitem
+          width:42px
+          height:40px
+          /*display:inline-block*/
+          text-align:center
+          margin:0 auto
+          min-width:max-content
+          p
+            color:blacktext
+            position:absolute
+            width:16%
+            transform:translate(-20%,50px)
+          /*&+.phoneitem:before
+            content:''
+            height:125px
+            width:1px
+            background:main-red
+            position:absolute
+            transform:translate(-50px,-15%)*/
+      #phoneitem1
+        background:url('../assets/homephone/1.png') no-repeat
+      #phoneitem2
+        background:url('../assets/homephone/2.png') no-repeat
+      #phoneitem3
+        background:url('../assets/homephone/4.png') no-repeat
+      #phoneitem4
+        background:url('../assets/homephone/3.png') no-repeat
+      @media screen and (min-width: 1000px)
+        .phone
+          display:none
       @media screen and (max-width: 1000px)
-        display:none
+        width:100%
+        max-width:1000px
+        background:gray2
+        padding:0 5%
+        box-sizing:border-box
+        height:260px
+      .agenda
+        width:158px
+        height:100px
+        margin:0 auto
+        text-align:center
+        margin-top:126px
+        @media screen and (max-width: 1000px)
+          margin-top:36px
+          height:60px
+        color:blacktext
+        font-family:"黑体"
+        p
+          margin-top:25px
+          font-size:18px
+          line-height:24px
+          @media screen and (max-width: 1000px)
+            margin-top:2rem
+            line-height:1.2rem
+          &:first-line
+            font-size:22px
+          &:before
+            content:''
+            position:absolute
+            background-image:linear-gradient(90deg,transparent 0%,blacktext 100%)
+            height:2px
+            width:120px
+            transform:translate(-130px,6px)
+          &:after
+            content:''
+            position:absolute
+            background-image:linear-gradient(270deg,transparent 0%,blacktext 100%)
+            height:2px
+            width:120px
+            transform:translate(130px,-12px)
+
     #item4
       background: gray1
       .more
@@ -203,20 +303,38 @@ main
         @media screen and (max-width: 1000px)
           margin-top:36px
           height:60px
-        border:4px solid main-red
+        @media screen and (min-width: 1000px)
+          border:4px solid main-red
         color:main-red
         font-family:"黑体"
         p
           margin-top:25px
           font-size:14px
-          line-height:24px
+          /*line-height:24px*/
           @media screen and (max-width: 1000px)
-            margin-top:1rem
+            margin-top:2rem
             line-height:1.2rem
-          &:first-line
-            font-size:18px
-          @media screen and (max-width: 1000px)
             color:white
+          &:first-child
+            font-size:22px
+            &:before
+              content:''
+              position:absolute
+              background-image:linear-gradient(90deg,transparent 0%,white 100%)
+              height:2px
+              width:120px
+              transform:translate(-130px,6px)
+            &:after
+              content:''
+              position:absolute
+              background-image:linear-gradient(270deg,transparent 0%,white 100%)
+              height:2px
+              width:120px
+              transform:translate(130px,-12px)
+          &:last-child
+            transform:translateY(-18px)
+            @media screen and (max-width: 1000px)
+              display:none
       @media screen and (max-width: 1000px)
         background:rgba(33,33,33,0.8) url('../assets/4.png')
         background-blend-mode: multiply
