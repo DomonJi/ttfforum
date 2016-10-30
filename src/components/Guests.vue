@@ -1,6 +1,6 @@
 <template lang="html">
   <main>
-    <big-title cn="国际顶尖演讲嘉宾" en="Invited Speakers"></big-title>
+    <big-title cn="国际顶尖演讲嘉宾" en="Invited Speakers" current="3"></big-title>
     <div class="container">
       <div class="item" id="item1">
         <div class="avator" id="avator1">
@@ -251,7 +251,8 @@ main
       font-family:"Helvetica Neue"
       @media screen and (max-width: 1000px)
         width:33.333%
-        height:200px
+        height:160px
+        text-align:center
       p
         margin-left:18px
         margin-right:18px
@@ -260,6 +261,7 @@ main
         line-height:16px
         @media screen and (max-width: 1000px)
           font-size:0px
+          margin-top:-10px
         &:first-line
           font-size:16px
           line-height:24px
@@ -271,7 +273,7 @@ main
         transform:translateY(12px)
         background-repeat:no-repeat
         @media screen and (max-width: 1000px)
-          transform:scale(0.75)
+          transform:scale(0.6)
       #avator1
         background:url('../assets/guests/1.png')
       #avator2

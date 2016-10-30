@@ -1,7 +1,7 @@
 <template>
 <div id="app">
   <navigator></navigator>
-  <!-- <home></home> -->
+  <home></home>
   <!-- <guests></guests> -->
   <!-- <introduction></introduction> -->
   <!-- <workshop></workshop> -->
@@ -10,7 +10,7 @@
   <!-- <Canteen></Canteen> -->
   <!-- <add></add> -->
   <!-- <registration></registration> -->
-  <contact></contact>
+  <!-- <contact></contact> -->
   <foot></foot>
 </div>
 </template>
@@ -49,6 +49,23 @@ export default {
 
 <style lang="stylus">
 @import './style/style.styl'
+.maxhr
+  margin-top:20px
+  margin-bottom:0
+  height:8px
+  background:gray2
+  border:0
+  z-index:8
+  @media screen and (min-width: 1000px)
+    display:none
+.minhr
+  margin-top:20px
+  margin-bottom:-10px
+  height:3px
+  background:gray2
+  border:0
+  @media screen and (min-width: 1000px)
+    display:none
 a
   text-decoration:none !important
   color:blacktext
@@ -75,7 +92,7 @@ main
   margin: 0 auto
   box-sizing:border-box
   @media screen and (max-width: 1000px)
-    transform:translateY(-80px)
+    transform:translateY(-60px)
     padding:5%
   .item
     width: 500px

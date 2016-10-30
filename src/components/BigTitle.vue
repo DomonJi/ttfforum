@@ -13,11 +13,11 @@
       </p>
     </div>
     <div class="phone">
-      <a href="/schedule"><span>  会议日程</span></a>
-      <a href="/workshop"><span>  工作坊</span></a>
-      <a href="/guests"><span>  嘉宾介绍</span></a>
-      <a href="/address"><span>  会议地址</span></a>
-      <a href="/canteen"><span>  会议餐饮</span></a>
+      <a href="/schedule" :class="{active:current==1}"><span>  会议日程</span></a>
+      <a href="/workshop" :class="{active:current==1}"><span>  工作坊</span></a>
+      <a href="/guests" :class="{active:current==1}"><span>  嘉宾介绍</span></a>
+      <a href="/address" :class="{active:current==1}"><span>  会议地址</span></a>
+      <a href="/canteen" :class="{active:current==1}"><span>  会议餐饮</span></a>
     </div>
   </div>
 </template>
@@ -32,6 +32,10 @@ export default {
     en: {
       type: String,
       required: true
+    },
+    current: {
+      type: [Number, String],
+      default: 0
     }
   },
   mounted () {
@@ -105,6 +109,7 @@ export default {
       @media screen and (max-width: 1000px)
         display:none
   .phone
+    font-size:14px
     z-index:5
     span
       cursor:pointer
@@ -118,15 +123,18 @@ export default {
     justify-content:space-around
     align-items:center
     border-bottom:2px solid gray2
+
     p,a
       z-index:100
       display:inline-block
       color:blacktext
+      .active
+        border-bottom:3px solid main-red
     @media screen and (min-width: 1000px)
       display:none
 </style>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 .container
   transform:translateY(-20px)
 

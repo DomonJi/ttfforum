@@ -1,6 +1,6 @@
 <template lang="html">
 <main>
-  <big-title cn="11-12日会议日程" en="Meeting Schedule"></big-title>
+  <big-title cn="11-12日会议日程" en="Meeting Schedule" current="1"></big-title>
   <div class="container">
     <div class="title">
     </div>
@@ -33,6 +33,8 @@ export default {
   background-repeat:no-repeat
   background-position:center
   background-size:contain
+  @media screen and (max-width: 1000px)
+    display:none
 .schedule
   background:url('../assets/Meeting.jpg')
   width:100%

@@ -6,16 +6,17 @@
      联系方式 <br>
 联系地址：无锡市锡山区鹅湖镇延祥路98号无锡卡秀堡辉涂料有限公司 <br>
 邮政编码：214106 <br>
-</p><p>
+</p><hr class="maxhr"><p>
 [设计教育再设计] 会务组 <br>
 执行主席：辛向阳 教授 <br>
 会议咨询：疏通 ＋86 13771057327 <br>
           虞昊 ＋86 18914127130 <br>
 <br>
 电子邮箱：shutong@cmwcoatings.com <br>
-官方网站：******** <br>
+官方网站：http://ttfdesign.org <br>
 网站设计与维护： shutong@cmwcoatings.com <br>
     </p>
+    <hr class="maxhr">
   </div>
 </main>
 </template>

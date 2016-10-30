@@ -1,6 +1,6 @@
 <template lang="html">
   <main>
-    <big-title cn="13日工作坊" en="Workshop"></big-title>
+    <big-title cn="13日工作坊" en="Workshop" current="2"></big-title>
     <div class="container">
       <div class="item" id="item1">
         <h2>1</h2>
@@ -18,6 +18,7 @@
           张寒凝 <br>
 江南大学设计学院副教授
         </p>
+        <hr class="minhr">
       </div>
       <div class="item" id="item2">
         <p>
@@ -25,6 +26,7 @@
         </p><p>
 本次工作坊计划就超高分子量聚乙烯纤维材料及其纺织或复合材料进行新产品开发与应用前景探索。我们希望通过材料研发者与设计师之间的信息交流、知识互动与协同创新，突破原有学科和领域的界限，跳脱固有的思维限制和观念束缚，在开放、共享、创新的理念和环境下，以全新的视角和视野去审视这一高性能材料的应用广度与深度，发现与发掘该材料潜在的应用领域和方向，进而建构并拓展高新材料领域产品开发与创新的设计理论与方法。
         </p>
+        <hr class="maxhr">
       </div>
       <div class="item" id="item3">
         <p>
@@ -39,6 +41,7 @@
 设计的推动 <br>
 社会化趋势的探讨
         </p>
+        <hr class="maxhr">
       </div>
       <div class="item" id="item4">
         <h2>2</h2>
@@ -55,6 +58,7 @@
           虞昊 <br>
 江南大学设计学院博士研究生
         </p>
+        <hr class="minhr">
       </div>
       <div class="item" id="item5">
         <h2>3</h2>
@@ -71,6 +75,7 @@
           王晰 <br>
 江南大学设计学院博士研究生
         </p>
+        <hr class="minhr">
       </div>
       <div class="item" id="item6">
         <p>您期待更早的介入未来市场么？您希望在合适的时间发行您的产品么？您想了解如何定位未来的用户么？《趋势思考》工作坊将揭示趋势预测的秘密。通过亲自实践的练习，本工作坊将向您展示如何向预测家一般思考，如何创建引领趋势的创意，并将对趋势的领悟运用到您的商业活动中。
@@ -83,6 +88,7 @@
 如何创建趋势的视觉故事 <br>
 创建设计语言（CMF，形状，图形...） <br>
 趋势的影响</p>
+<hr class="maxhr">
       </div>
     </div>
   </main>
@@ -111,6 +117,7 @@ main
     margin: 0 auto*/
     @media screen and (max-width: 1000px)
       padding:0
+      transform:translateY(0)
     .item
       width: 50%
       max-width:500px
@@ -214,7 +221,7 @@ main
       line-height:40px
       @media screen and (max-width: 1000px)
         padding:25px
-        top:180px
+        top:200px
     #item4
       @media screen and (max-width: 1000px)
         padding:25px
@@ -228,7 +235,7 @@ main
         background-image:url('../assets/workshop/1.png')
       p
         display:inline-block
-        width:70%
+        width:80%
         max-width:250px
         color:blacktext
         font-size:18px
@@ -273,9 +280,11 @@ main
         padding:70px 86px
       #avator5
         background-image:url('../assets/workshop/5.png')
+      #avator6
+        background-image:url('../assets/workshop/7.png')
       p
         display:inline-block
-        width:70%
+        width:80%
         max-width:250px
         color:blacktext
         font-size:18px

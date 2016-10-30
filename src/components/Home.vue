@@ -118,7 +118,7 @@ main
         max-width:250px
         height: 250px
         float: left
-        font-size: 16px
+        font-size: 18px
         font-family: "黑体"
         text-align: center
       #subitem1
@@ -208,10 +208,11 @@ main
           margin:0 auto
           min-width:max-content
           p
+            font-size:14px
             color:blacktext
             position:absolute
             width:16%
-            transform:translate(-20%,50px)
+            transform:translate(-25%,50px)
           /*&+.phoneitem:before
             content:''
             height:125px

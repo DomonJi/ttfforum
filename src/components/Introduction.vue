@@ -15,8 +15,9 @@
 
 如果你还在奋斗在设计和产品研发的第一线，TTF大会整合了丰富的CMF领域国际产业和科研资源。 <br>
 
-哪怕你只是一个热爱所有美好事物的普通大众，TTF大会的色彩、材料等国际前沿趋势发布会也一定会让你大开眼界，让你的生活更加丰富多彩。 <br> <br> <br>
+哪怕你只是一个热爱所有美好事物的普通大众，TTF大会的色彩、材料等国际前沿趋势发布会也一定会让你大开眼界，让你的生活更加丰富多彩。 <br>
       </p>
+      <hr class="maxhr">
     </div>
   </main>
 </template>
@@ -45,4 +46,6 @@ p
   background-repeat:no-repeat
   background-position:center
   background-size:contain
+  @media screen and (max-width: 1000px)
+    display:none
 </style>
