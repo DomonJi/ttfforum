@@ -1,32 +1,32 @@
 <template lang="html">
   <main>
       <div class="slide"></div>
-      <div class="container">
+      <div class="container-main">
           <div class="item" id="item1">
             <div class="baoming">
               <p>
-                报名参会
+                <a href="/registration">报名参会</a>
               </p>
             </div>
           </div>
           <div class="item" id="item2">
               <div class="subitem" id="subitem1">
                   <p>
-                      11-12日会议日程
+                      <a href="/schedule">11-12日会议日程</a>
                   </p>
                   <hr>
                   <p>
-                      13日工作坊介绍
+                      <a href="/workshop">13日工作坊介绍</a>
                   </p>
               </div>
               <div class="subitem" id="subitem2">
-                  <p>嘉宾介绍</p>
+                  <p><a href="/guests">嘉宾介绍</a></p>
               </div>
               <div class="subitem" id="subitem3">
-                  <p>会议地址及交通</p>
+                  <p><a href="/address">会议地址及交通</a></p>
               </div>
               <div class="subitem" id="subitem4">
-                  <p>会议餐饮</p>
+                  <p><a href="/canteen">会议餐饮</a></p>
               </div>
 
           </div>
@@ -39,16 +39,16 @@
               </div>
               <div class="flexitem">
                 <div class="phoneitem" id="phoneitem1"><p>
-                  会议日程工作坊
+                  <a href="/workshop">会议日程工作坊</a>
                 </p></div>
                 <div class="phoneitem" id="phoneitem2"><p>
-                  嘉宾介绍
+                  <a href="/guests">嘉宾介绍</a>
                 </p></div>
                 <div class="phoneitem" id="phoneitem3"><p>
-                  会议地址与交通
+                  <a href="/address">会议地址与交通</a>
                 </p></div>
                 <div class="phoneitem" id="phoneitem4"><p>
-                  会议餐饮
+                  <a href="/canteen">会议餐饮</a>
                 </p></div>
               </div>
 
@@ -69,7 +69,7 @@
               </p>
               </div>
               <div class="more">
-                <span>更多</span>
+                <span><a href="/introduction">更多</a></span>
                 <span id="arrow"></span>
               </div>
           </div>
@@ -101,7 +101,7 @@ main
     background-repeat: no-repeat
     background-position: center
     /*background-size:cover*/
-  .container
+  .container-main
     width: 100%
     max-width:1000px
     position: relative
@@ -133,30 +133,34 @@ main
         p
           color: white
           margin: 8px
+        a
+          color:white
         p:first-child
           margin-top: 100px
       #subitem2
         background: gray1
         text-align: center
-        p
+        p,a
           color: blacktext
           margin-top: 116px
       #subitem3
         background: gray2
-        p
+        p,a
           color: blacktext
         p:first-child
           margin-top: 116px
       #subitem4
         background:rgba(33,33,33,0.8) url('../assets/3.png')
         background-blend-mode: multiply
-        p
+        p,a
           color: white
           margin-top: 116px
     #item1
       background: url('../assets/12.png') gray1
       background-size:cover
       background-repeat:no-repeat
+      a
+        color:white
       .baoming
         background: main-red
         background-image:linear-gradient(135deg,black 60%,main-red 0)
@@ -169,6 +173,9 @@ main
         line-height:56px
         margin: 0 auto
         margin-top:350px
+        @media screen and (min-width: 1000px)
+          p:after
+            content:'(进入注册系统)'
         @media screen and (max-width: 1000px)
           margin-top:10rem
           width:120px
@@ -241,7 +248,7 @@ main
           height:60px
         color:blacktext
         font-family:"黑体"
-        p
+        p,a
           margin-top:25px
           font-size:18px
           line-height:24px
@@ -275,6 +282,8 @@ main
         text-align:center
         @media screen and (max-width: 1000px)
           color:white
+          a
+            color:white
         span
           display:inline-block
           margin:0
@@ -307,7 +316,7 @@ main
           border:4px solid main-red
         color:main-red
         font-family:"黑体"
-        p
+        p,a
           margin-top:25px
           font-size:14px
           /*line-height:24px*/
@@ -317,20 +326,21 @@ main
             color:white
           &:first-child
             font-size:22px
-            &:before
-              content:''
-              position:absolute
-              background-image:linear-gradient(90deg,transparent 0%,white 100%)
-              height:2px
-              width:120px
-              transform:translate(-130px,6px)
-            &:after
-              content:''
-              position:absolute
-              background-image:linear-gradient(270deg,transparent 0%,white 100%)
-              height:2px
-              width:120px
-              transform:translate(130px,-12px)
+            @media screen and (max-width: 1000px)
+              &:before
+                content:''
+                position:absolute
+                background-image:linear-gradient(90deg,transparent 0%,white 100%)
+                height:2px
+                width:120px
+                transform:translate(-130px,6px)
+              &:after
+                content:''
+                position:absolute
+                background-image:linear-gradient(270deg,transparent 0%,white 100%)
+                height:2px
+                width:120px
+                transform:translate(130px,-12px)
           &:last-child
             transform:translateY(-18px)
             @media screen and (max-width: 1000px)

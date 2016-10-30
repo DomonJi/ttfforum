@@ -32,6 +32,7 @@ export default {
   height:162px
   background-repeat:no-repeat
   background-position:center
+  background-size:contain
 .schedule
   background:url('../assets/Meeting.jpg')
   width:100%
@@ -39,6 +40,8 @@ export default {
   background-repeat:no-repeat
   background-position:center
   margin:40px 0
-  background-size:cover
+  background-size:contain
   margin-bottom:300px
+  @media screen and (max-width: 1000px)
+    height:300px
 </style>

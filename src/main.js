@@ -7,6 +7,12 @@ import Home from './components/Home.vue'
 import Guests from './components/Guests.vue'
 import Introduction from './components/Introduction.vue'
 import Workshop from './components/Workshop'
+import Affairs from './components/Affairs.vue'
+import Schedule from './components/Schedule'
+import Canteen from './components/Canteen'
+import Add from './components/Address'
+import Registration from './components/Registration'
+import Contact from './components/Contact'
 
 Vue.use(Router)
 const routes = [
@@ -22,12 +28,29 @@ const routes = [
   }, {
     path: '/workshop',
     component: Workshop
+  }, {
+    path: '/affairs',
+    component: Affairs
+  }, {
+    path: '/schedule',
+    component: Schedule
+  }, {
+    path: '/canteen',
+    component: Canteen
+  }, {
+    path: '/address',
+    component: Add
+  }, {
+    path: '/registration',
+    component: Registration
+  }, {
+    path: '/contact',
+    component: Contact
   }
 ]
+
 const router = new Router(routes)
 new Vue({
-  el: '#app',
-  template: '<App/>',
   router,
-  components: { App }
-})
+  render: h => h(App)
+}).$mount('#app')

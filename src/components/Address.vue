@@ -12,7 +12,9 @@
 ·距最近地铁站：地铁1号线市民中心站，约2.8公里。 <br>
 
     </p>
-    <div style="width:1000px;height:650px;border:#ccc solid 1px;font-size:12px" id="map"></div>
+    <div class="map">
+
+    </div>
   </div>
 
 </main>
@@ -105,4 +107,10 @@ main
         color:main-red
         font-size:20px
         line-height:40px
+    .map
+      background:url('../assets/map.png') no-repeat
+      width:100%
+      max-width:1000px
+      background-size:contain
+      height:750px
 </style>

@@ -31,22 +31,18 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-main
-  .container
-    width: 1000px
-    position: relative
-    margin: 0 auto
-    p
-      font-family:"黑体"
-      font-size:18px
-      br
-        line-height:60px
-    .title
-      margin-top:40px
-      margin-bottom:40px
-      background:url('../assets/title.png')
-      width:100%
-      height:162px
-      background-repeat:no-repeat
-      background-position:center
+p
+  font-family:"黑体"
+  font-size:18px
+  br
+    line-height:60px
+.title
+  margin-top:40px
+  margin-bottom:40px
+  background:url('../assets/title.png')
+  width:100%
+  height:162px
+  background-repeat:no-repeat
+  background-position:center
+  background-size:contain
 </style>

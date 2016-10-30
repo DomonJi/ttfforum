@@ -11,7 +11,7 @@
 汇款至——无锡市工业设计协会  江苏银行无锡香榭支行  800060188900004847 <br>
 <br>
 2. 汇款完成后按照以下表格填写并Email至：shutong@cmwcoatings.com <br>
-下载2016TTF论坛报名表.doc <br>
+<a href="./2016TTF.xlsx">下载2016TTF论坛报名表.xlsx</a> <br>
 <br>
 3. 注意事项： <br>
 (1)会议发票开票项目为：服务费； <br>
@@ -47,4 +47,11 @@ main
         color:main-red
         font-size:22px
         line-height:40px
+    a
+      color:main-red
+    #xlsx
+      background:url('../assets/xlxicon.png')
+      width:20px
+      height:20px
+      display:inline
 </style>

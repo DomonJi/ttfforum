@@ -1,7 +1,7 @@
 <template>
 <div id="app">
   <navigator></navigator>
-  <home></home>
+  <Canteen></Canteen>
   <foot></foot>
 </div>
 </template>
@@ -40,6 +40,10 @@ export default {
 
 <style lang="stylus">
 @import './style/style.styl'
+a
+  text-decoration:none !important
+  color:blacktext
+
 p
   font-family:"Helvetica Neue", "STHeiti"
 #app:before
@@ -60,7 +64,10 @@ main
   max-width:1000px
   position: relative
   margin: 0 auto
-
+  box-sizing:border-box
+  @media screen and (max-width: 1000px)
+    transform:translateY(-80px)
+    padding:5%
   .item
     width: 500px
     height: 500px

@@ -235,32 +235,43 @@ main
     display: block
     clear: both
   .container
-    width: 1000px
+    width: 100%
+    max-width:1000px
     position: relative
     margin: 0 auto
+    @media screen and (max-width: 1000px)
+      padding:0
     .item
       background:gray1
-      width: 250px
+      width: 25%
+      max-width:250px
       height: 250px
       float: left
       color:#555555
       font-family:"Helvetica Neue"
+      @media screen and (max-width: 1000px)
+        width:33.333%
+        height:200px
       p
         margin-left:18px
         margin-right:18px
         margin-top:18px
         font-size:10px
         line-height:16px
+        @media screen and (max-width: 1000px)
+          font-size:0px
         &:first-line
           font-size:16px
           line-height:24px
       .avator
         height:140px
         width:140px
-        border-radius:50%
+        /*border-radius:50%*/
         margin:0 auto
         transform:translateY(12px)
         background-repeat:no-repeat
+        @media screen and (max-width: 1000px)
+          transform:scale(0.75)
       #avator1
         background:url('../assets/guests/1.png')
       #avator2
@@ -301,12 +312,16 @@ main
         background:url('../assets/guests/19.png')
       #avator20
         background:url('../assets/guests/20.png')
-    .item:nth-child(8n+1)
-      background:gray2
-    .item:nth-child(8n+3)
-      background:gray2
-    .item:nth-child(8n+6)
-      background:gray2
-    .item:nth-child(8n)
-      background:gray2
+    @media screen and (min-width: 1000px)
+      .item:nth-child(8n+1)
+        background:gray2
+      .item:nth-child(8n+3)
+        background:gray2
+      .item:nth-child(8n+6)
+        background:gray2
+      .item:nth-child(8n)
+        background:gray2
+    @media screen and (max-width: 1000px)
+      .item:nth-child(2n+1)
+        background:gray2
 </style>
