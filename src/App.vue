@@ -1,7 +1,16 @@
 <template>
 <div id="app">
   <navigator></navigator>
-  <Canteen></Canteen>
+  <!-- <home></home> -->
+  <!-- <guests></guests> -->
+  <!-- <introduction></introduction> -->
+  <!-- <workshop></workshop> -->
+  <!-- <affairs></affairs> -->
+  <!-- <schedule></schedule> -->
+  <!-- <Canteen></Canteen> -->
+  <!-- <add></add> -->
+  <!-- <registration></registration> -->
+  <contact></contact>
   <foot></foot>
 </div>
 </template>
