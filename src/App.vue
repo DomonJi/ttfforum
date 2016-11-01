@@ -11,6 +11,7 @@
   <!-- <add></add> -->
   <!-- <registration></registration> -->
   <!-- <contact></contact> -->
+  <!-- <router-view></router-view> -->
   <foot></foot>
 </div>
 </template>
@@ -56,11 +57,18 @@ export default {
   background:gray2
   border:0
   z-index:8
+  :before
+    content:''
+    width:100%
+    position:absolute
+    background:gray2
+    z-index:9
+    height:8px
   @media screen and (min-width: 1000px)
     display:none
 .minhr
   margin-top:20px
-  margin-bottom:-10px
+  margin-bottom:0px
   height:3px
   background:gray2
   border:0
@@ -70,8 +78,8 @@ a
   text-decoration:none !important
   color:blacktext
 
-p
-  font-family:"Helvetica Neue", "STHeiti"
+p,a
+  font-family:"Helvetica Neue", "SimHei"
 #app:before
   @media screen and (min-width: 1000px)
     content:''
@@ -93,7 +101,10 @@ main
   box-sizing:border-box
   @media screen and (max-width: 1000px)
     transform:translateY(-60px)
-    padding:5%
+    padding:8% 0%
+  p
+    @media screen and (max-width: 1000px)
+      margin:5% 5%
   .item
     width: 500px
     height: 500px

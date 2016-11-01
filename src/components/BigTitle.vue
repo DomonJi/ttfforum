@@ -64,35 +64,39 @@ export default {
     position:absolute
     width:20px
     height:30px
-    bottom:10%
+    bottom:6%
     left:5%
 .return
   @media screen and (min-width: 1000px)
     display:none
-  width:20px
-  height:30px
-  background:url('../assets/return.png')
+  width:18px
+  height:25px
+  background:url('../assets/return.png') no-repeat
   position:absolute
   margin:0
+  background-size:contain
 
 .image
   width:100%
   max-width:1000px
   height:250px
+  background:gray1
   @media screen and (max-width: 1000px)
     height:100px
     vertical-align:center
     transform:translateY(-80px)
-  background:main-red
+    background:main-red
   margin:0 auto
   .title
     color:white
     font-family:"黑体"
-    width:360px
+
     height:150px
     margin:0 auto
     @media screen and (min-width: 1000px)
-      border:7px solid white
+      border:7px solid main-red
+      color:main-red
+      width:360px
     transform:translateY(50px)
     box-sizing:border-box
     text-align:center
@@ -109,18 +113,20 @@ export default {
       @media screen and (max-width: 1000px)
         display:none
   .phone
-    font-size:14px
+    font-size:.7rem
     z-index:5
     span
       cursor:pointer
+      width:20%
     width:100%
     position:absolute
-    height:50px
+    height:40px
     top:105px
     display:flex
     padding:0 25px
     box-sizing:border-box
     justify-content:space-around
+    /*transform:translateX(10px)*/
     align-items:center
     border-bottom:2px solid gray2
 

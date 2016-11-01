@@ -38,9 +38,9 @@ export default {
     display:none
 main
   .container
-    box-sizing:border-box
+    /*box-sizing:border-box
     @media screen and (max-width: 1000px)
-      padding:5%
+      padding:5%*/
     p
       font-size:18px
       line-height:28px

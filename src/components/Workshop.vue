@@ -8,17 +8,18 @@
           [最新科研材料在产品开发 <br>
 与应用中的探索]
         </h3>
+        <hr class="minhr">
         <div class="avator" id="avator1"></div>
-        <p>
+        <p class="small">
           王依民 <br>
 东华大学
         </p>
         <div class="avator" id="avator2"></div>
-        <p>
+        <p class="big">
           张寒凝 <br>
 江南大学设计学院副教授
         </p>
-        <hr class="minhr">
+        <hr class="maxhr">
       </div>
       <div class="item" id="item2">
         <p>
@@ -48,34 +49,36 @@
         <h3>
           [社会化商业（社会创新）]
         </h3>
+        <hr class="minhr">
         <div class="avator" id="avator3"></div>
-        <p>
+        <p class="small">
           Lee Davis <br>
 马里兰艺术学院
         </p>
         <div class="avator" id="avator4"></div>
-        <p>
+        <p class="big">
           虞昊 <br>
 江南大学设计学院博士研究生
         </p>
-        <hr class="minhr">
+        <hr class="maxhr">
       </div>
       <div class="item" id="item5">
         <h2>3</h2>
         <h3>
           [趋势思考]
         </h3>
+        <hr class="minhr">
         <div class="avator" id="avator5"></div>
-        <p>
+        <p class="small">
           Fei Wang  <br>
 惠而浦美国
         </p>
         <div class="avator" id="avator6"></div>
-        <p>
+        <p class="big">
           王晰 <br>
 江南大学设计学院博士研究生
         </p>
-        <hr class="minhr">
+        <hr class="maxhr">
       </div>
       <div class="item" id="item6">
         <p>您期待更早的介入未来市场么？您希望在合适的时间发行您的产品么？您想了解如何定位未来的用户么？《趋势思考》工作坊将揭示趋势预测的秘密。通过亲自实践的练习，本工作坊将向您展示如何向预测家一般思考，如何创建引领趋势的创意，并将对趋势的领悟运用到您的商业活动中。
@@ -116,8 +119,8 @@ main
     position: relative
     margin: 0 auto*/
     @media screen and (max-width: 1000px)
-      padding:0
-      transform:translateY(0)
+      /*padding:0
+      transform:translateY(0)*/
     .item
       width: 50%
       max-width:500px
@@ -143,7 +146,7 @@ main
           display:none
     #item1
       @media screen and (max-width: 1000px)
-        padding:25px
+        padding:5% 0 0 0
       @media screen and (min-width: 1000px)
         background-image: url('../assets/workshop/6.png')
         padding:70px 86px
@@ -151,6 +154,12 @@ main
         background-image:url('../assets/workshop/3.png')
       #avator2
         background-image:url('../assets/workshop/2.png')
+      .small
+        @media screen and (max-width: 1000px)
+          width:25%
+      .big
+        @media screen and (max-width: 1000px)
+          width:45%
       p
         display:inline-block
         width:70%
@@ -158,43 +167,50 @@ main
         color:blacktext
         font-size:18px
         line-height:28px
+        /*margin-left:10px*/
         @media screen and (max-width: 1000px)
           line-height:18px
-          /*width:40%*/
-          margin:12px
-        transform:translateY(16px)
-        margin-left:12px
-        &:first-child
-          @media screen and (max-width: 1000px)
-            width:30% !important
+          font-size:12px
+          /*width:30%*/
+
+          margin:10px 6% 0
+        transform:translateY(6px)
+        /*margin-left:12px*/
       h3
         font-size:22px
         color:blacktext
-        margin-bottom:0
+        margin-bottom:0px
         @media screen and (max-width: 1000px)
-          font-size:18px
+          font-size:13px
           display:inline
+          /*transform:translateY(100px)*/
           &:before
             content:'1'
-            font-size:32px
+            font-size:18px
             color:#d23710
             font-family:"Helvetica Neue"
-            margin:5%
+            margin:0 5%
+        br
+          @media screen and (max-width: 1000px)
+            display:none
       br
         line-height:1.15
       h2
         font-size:78px
         @media screen and (max-width: 1000px)
-          font-size:42px
+          font-size:28px
+          margin:12px 4%
           display:inline
         color:#d23710
         margin:0
         font-family:"Helvetica Neue"
     #item2
       padding:30px 25px
+      @media screen and (max-width: 1000px)
+        padding:30px 0
       color:#555555
       p
-        margin:0
+        margin:0 4%
         margin-bottom:30px
         @media screen and (max-width: 1000px)
           margin-bottom:0
@@ -207,9 +223,11 @@ main
           line-height:0px
     #item3
       padding:30px 25px
+      @media screen and (max-width: 1000px)
+        padding:30px 0
       color:#555555
       p
-        margin:0
+        margin:0 5%
         margin-bottom:30px
         font-size:14px
         line-height:24px
@@ -220,12 +238,14 @@ main
       display:inline-block
       line-height:40px
       @media screen and (max-width: 1000px)
-        padding:25px
-        top:200px
+        padding:25px 0
+        top:110px
     #item4
       @media screen and (max-width: 1000px)
-        padding:25px
-        top:-550px
+        padding:25px 0
+        top:-580px
+        @media screen and (max-width: 320px)
+          top:-650px
       @media screen and (min-width: 1000px)
         background-image:url('../assets/workshop/500x500.png')
         padding:70px 86px
@@ -233,48 +253,59 @@ main
         background-image:url('../assets/workshop/4.png')
       #avator4
         background-image:url('../assets/workshop/1.png')
+      .small
+        @media screen and (max-width: 1000px)
+          width:26.25%
+      .big
+        @media screen and (max-width: 1000px)
+          width:49%
       p
         display:inline-block
-        width:80%
+        width:70%
         max-width:250px
         color:blacktext
         font-size:18px
         line-height:28px
+        /*margin-left:10px*/
         @media screen and (max-width: 1000px)
           line-height:18px
-          /*width:40%*/
-          margin:12px
-        transform:translateY(16px)
-        margin-left:12px
-        &:first-child
-          @media screen and (max-width: 1000px)
-            width:30% !important
+          font-size:12px
+          /*width:30%*/
+          margin:10px 5% 0
+        transform:translateY(6px)
+        /*margin-left:12px*/
       h3
         font-size:22px
         color:blacktext
-        margin-bottom:0
+        margin-bottom:0px
         @media screen and (max-width: 1000px)
-          font-size:18px
+          font-size:16px
           display:inline
+          /*transform:translateY(100px)*/
           &:before
             content:'2'
-            font-size:32px
+            font-size:18px
             color:#d23710
             font-family:"Helvetica Neue"
-            margin:5%
+            margin:0 5%
+        br
+          @media screen and (max-width: 1000px)
+            display:none
       br
         line-height:1.15
       h2
         font-size:78px
         @media screen and (max-width: 1000px)
-          font-size:42px
+          font-size:28px
+          margin:12px 4%
           display:inline
         color:#d23710
         margin:0
         font-family:"Helvetica Neue"
     #item5
       @media screen and (max-width: 1000px)
-        padding:5%
+        padding:5% 0
+        transform:translateY(-80px)
       @media screen and (min-width: 1000px)
         background-image:url('../assets/workshop/8.png')
         padding:70px 86px
@@ -282,50 +313,63 @@ main
         background-image:url('../assets/workshop/5.png')
       #avator6
         background-image:url('../assets/workshop/7.png')
+      .small
+        @media screen and (max-width: 1000px)
+          width:20%
+      .big
+        @media screen and (max-width: 1000px)
+          width:50%
       p
         display:inline-block
-        width:80%
+        width:70%
         max-width:250px
         color:blacktext
         font-size:18px
         line-height:28px
+        /*margin-left:10px*/
         @media screen and (max-width: 1000px)
           line-height:18px
-          /*width:40%*/
-          margin:12px
-        transform:translateY(16px)
-        margin-left:12px
-        &:first-child
-          @media screen and (max-width: 1000px)
-            width:30% !important
+          font-size:12px
+          /*width:30%*
+          /*margin:10px 6% 0*/
+        transform:translateY(6px)
+        /*margin-left:12px*/
       h3
         font-size:22px
         color:blacktext
-        margin-bottom:0
+        margin-bottom:0px
         @media screen and (max-width: 1000px)
-          font-size:18px
+          font-size:16px
           display:inline
+          /*transform:translateY(100px)*/
           &:before
             content:'3'
-            font-size:32px
+            font-size:18px
             color:#d23710
             font-family:"Helvetica Neue"
-            margin:5%
+            margin:0 5%
+        br
+          @media screen and (max-width: 1000px)
+            display:none
       br
         line-height:1.15
       h2
         font-size:78px
         @media screen and (max-width: 1000px)
-          font-size:42px
+          font-size:28px
+          margin:12px 4%
           display:inline
         color:#d23710
         margin:0
         font-family:"Helvetica Neue"
     #item6
       padding:30px 25px
+      @media screen and (max-width: 1000px)
+        padding:30px 0
+        transform:translateY(-95px)
       color:#555555
       p
-        margin:0
+        margin:0 5%
         margin-bottom:30px
         font-size:14px
         line-height:24px

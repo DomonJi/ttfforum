@@ -31,7 +31,7 @@ BillWang <br>
 办公家具杂志 <br>
 土木在线 <br>
 产业在线 <br>
-材料馆 <br><br><br><br><br><br>
+材料馆 <br><br><br><br>
     </p>
     <hr class="maxhr">
   </div>
@@ -52,9 +52,9 @@ export default {
 
 main
   .container
-    box-sizing:border-box
+    /*box-sizing:border-box
     @media screen and (max-width: 1000px)
-      padding:5%
+      padding:5%*/
     p
       font-size:18px
       line-height:28px

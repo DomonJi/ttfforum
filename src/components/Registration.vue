@@ -12,13 +12,13 @@
 <br>
 2. 汇款完成后按照以下表格填写并Email至：shutong@cmwcoatings.com <br>
 <a href="./2016TTF.xlsx">下载2016TTF论坛报名表.xlsx</a> <br>
-<br>
 3. 注意事项： <br>
 (1)会议发票开票项目为：服务费； <br>
 (2)发票会后工作人员会联系您开具发票； <br>
 (3)请务必填写手机号码，手机号码将会作为参会的唯一凭证。 <br><br><br><br><br><br>
 
     </p>
+    <hr class="maxhr">
   </div>
 </main>
 </template>
@@ -37,9 +37,9 @@ export default {
 
 main
   .container
-    box-sizing:border-box
+    /*box-sizing:border-box
     @media screen and (max-width: 1000px)
-      padding:5%
+      padding:5%*/
     p
       font-size:18px
       line-height:28px

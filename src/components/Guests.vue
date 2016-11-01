@@ -240,7 +240,7 @@ main
     position: relative
     margin: 0 auto
     @media screen and (max-width: 1000px)
-      padding:0
+      padding:4.9% 0 0 0
     .item
       background:gray1
       width: 25%
@@ -274,6 +274,8 @@ main
         background-repeat:no-repeat
         @media screen and (max-width: 1000px)
           transform:scale(0.6)
+        @media screen and (max-width: 320px)
+          transform:scale(0.5) translateX(-30px)
       #avator1
         background:url('../assets/guests/1.png')
       #avator2

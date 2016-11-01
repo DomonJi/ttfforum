@@ -1,20 +1,20 @@
 <template lang="html">
   <header>
-      <div class="logo"></div>
+      <a href="/"><div class="logo"></div></a>
       <div class="phone-daohang" id="daohang-button" @click="clicked=!clicked">
 
       </div>
       <div class="navinfo">
         <p id="title">2016 TTF论坛(I)暨第五届CMF趋势论坛</p>
         <div class="actions">
-            <span>EN</span>
-            <span>中文</span>
+            <a href="#" class="disabled">EN</a>
+            <a href="#">中文</a>
         </div>
         <div class="nav">
             <span><a href="/">首页</a></span>
-            <span><a href="#">新闻资讯</a></span>
-            <span><a href="#">知识分享</a></span>
-            <span><a href="#">历届会议</a></span>
+            <span class="disabled">新闻资讯</span>
+            <span class="disabled">知识分享</span>
+            <span class="disabled">历届会议</span>
             <span><a href="/affairs">会务组织</a></span>
             <span><a href="/contact">联系我们</a></span>
         </div>
@@ -25,9 +25,9 @@
         </div>
         <div class="phone" >
             <p><a href="/">首页</a></p>
-            <p><a href="#">新闻资讯</a></p>
-            <p><a href="#">知识分享</a></p>
-            <p><a href="#">历届会议</a></p>
+            <p class="disabled">新闻资讯</p>
+            <p class="disabled">知识分享</p>
+            <p class="disabled">历届会议</p>
             <p><a href="/affairs">会务组织</a></p>
             <p><a href="/contact">联系我们</a></p>
         </div>
@@ -50,11 +50,12 @@ export default {
 a
   text-decoration:none
   color:blacktext
+  font-family:"SimHei","Helvetica Neue"
 .phone-daohang
   cursor:pointer
   position:absolute
-  right:20px
-  width:30px
+  right:18px
+  width:25px
   height:10px
   background:url('../assets/blackdaohang.png')
   top:20px
@@ -100,6 +101,8 @@ header
         line-height:40px
       p
         border-bottom:1px solid white
+      .disabled
+        color:blacktext
     .chacha
       cursor:pointer
       width:35px
@@ -122,8 +125,8 @@ header
     top: 73px
     color: #898989
     font-size: 12px
-    font-family: "黑体"
-    span+span:before
+    font-family: "Helvetica Neue","黑体"
+    a+a:before
       content:'|'
       margin-right: 2px
   .nav
@@ -136,6 +139,8 @@ header
       margin: 0px 16px
     span:last-child
       margin: 0px 0px 0 16px
+    .disabled
+      color:#999
   .logo
     background-image: url('../assets/logo.png')
     background-repeat: no-repeat

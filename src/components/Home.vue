@@ -94,7 +94,7 @@ main
     /*max-width:1000px*/
     height: 500px
     @media screen and (max-width: 1000px)
-      height:300px
+      height:180px
       background-size:cover
       background-position:65% 100%
     background:url('../assets/banner.png')
@@ -112,7 +112,7 @@ main
       height: 500px
       float: left
       @media screen and (max-width: 1000px)
-        height:300px
+        height:180px
       .subitem
         width: 50%
         max-width:250px
@@ -173,46 +173,83 @@ main
         line-height:56px
         margin: 0 auto
         margin-top:350px
-        @media screen and (min-width: 1000px)
-          p:after
-            content:'(进入注册系统)'
         @media screen and (max-width: 1000px)
-          margin-top:10rem
+          margin-top:7.5rem
           width:120px
-          height:40px
-          line-height:40px
+          height:34px
+          line-height:34px
         font-size:18px
         font-family:"黑体"
         color:white
       @media screen and (max-width: 1000px)
-        background:url('../assets/640x300.png')
+        background:url('../assets/640x300.png') no-repeat
         width:100%
-        height:240px
+        height:180px
         max-width:1000px
         background-position:50% 10%
+        background-size:120%
     #item2
       @media screen and (max-width: 1000px)
         display:none
     #item3
       background: url('../assets/2.png')
+      .agenda
+        width:158px
+        height:100px
+        margin:0 auto
+        text-align:center
+        margin-top:126px
+        @media screen and (max-width: 1000px)
+          margin-top:0px
+          height:40px
+        color:blacktext
+        font-family:"黑体"
+        p,a
+          margin-top:25px
+          font-size:18px
+          line-height:24px
+          @media screen and (max-width: 1000px)
+            margin-top:1.2rem
+            line-height:1.2rem
+          &:first-line
+            font-size:22px
+            @media screen and (max-width: 1000px)
+              font-size:20px
+          &:before
+            content:''
+            position:absolute
+            background-image:linear-gradient(90deg,transparent 0%,blacktext 100%)
+            height:2px
+            width:90px
+            transform:translate(-95px,6px)
+          &:after
+            content:''
+            position:absolute
+            background-image:linear-gradient(270deg,transparent 0%,blacktext 100%)
+            height:2px
+            width:90px
+            transform:translate(125px,-12px)
       .flexitem
         display:flex
         width:100%
         justify-content:space-between
         /*align-items:center*/
         .phoneitem
-          width:42px
-          height:40px
+          width:28px
+          height:26px
           /*display:inline-block*/
           text-align:center
           margin:0 auto
           min-width:max-content
+          background-size:contain
           p
-            font-size:14px
+            font-size:12px
             color:blacktext
             position:absolute
             width:16%
-            transform:translate(-25%,50px)
+            transform:translate(-28%,50px)
+            @media screen and (max-width: 1000px)
+              margin-top:0
           /*&+.phoneitem:before
             content:''
             height:125px
@@ -222,12 +259,16 @@ main
             transform:translate(-50px,-15%)*/
       #phoneitem1
         background:url('../assets/homephone/1.png') no-repeat
+        background-size:contain
       #phoneitem2
         background:url('../assets/homephone/2.png') no-repeat
+        background-size:contain
       #phoneitem3
         background:url('../assets/homephone/4.png') no-repeat
+        background-size:contain
       #phoneitem4
         background:url('../assets/homephone/3.png') no-repeat
+        background-size:contain
       @media screen and (min-width: 1000px)
         .phone
           display:none
@@ -237,41 +278,8 @@ main
         background:gray2
         padding:0 5%
         box-sizing:border-box
-        height:260px
-      .agenda
-        width:158px
-        height:100px
-        margin:0 auto
-        text-align:center
-        margin-top:126px
-        @media screen and (max-width: 1000px)
-          margin-top:36px
-          height:60px
-        color:blacktext
-        font-family:"黑体"
-        p,a
-          margin-top:25px
-          font-size:18px
-          line-height:24px
-          @media screen and (max-width: 1000px)
-            margin-top:2rem
-            line-height:1.2rem
-          &:first-line
-            font-size:22px
-          &:before
-            content:''
-            position:absolute
-            background-image:linear-gradient(90deg,transparent 0%,blacktext 100%)
-            height:2px
-            width:120px
-            transform:translate(-130px,6px)
-          &:after
-            content:''
-            position:absolute
-            background-image:linear-gradient(270deg,transparent 0%,blacktext 100%)
-            height:2px
-            width:120px
-            transform:translate(130px,-12px)
+        height:180px
+
 
     #item4
       background: gray1
@@ -283,17 +291,21 @@ main
         text-align:center
         @media screen and (max-width: 1000px)
           color:white
+          line-height:6px
           a
             color:white
         span
           display:inline-block
           margin:0
           vertical-align:top
+
         #arrow
           width:20px
           height:20px
           background:url('../assets/more 20x20.png')
           border-radius:50%
+          @media screen and (max-width: 1000px)
+            transform:translateY(-6px)
       .text-container
         width:304px
         margin:0 auto
@@ -304,6 +316,9 @@ main
         color:#555555
         @media screen and (max-width: 1000px)
           color:white
+          font-size:12px
+          line-height:24px
+          width:90%
       .agenda
         width:158px
         height:100px
@@ -311,8 +326,8 @@ main
         text-align:center
         margin-top:126px
         @media screen and (max-width: 1000px)
-          margin-top:36px
-          height:60px
+          margin-top:16px
+          height:20px
         @media screen and (min-width: 1000px)
           border:4px solid main-red
         color:main-red
@@ -322,32 +337,32 @@ main
           font-size:14px
           /*line-height:24px*/
           @media screen and (max-width: 1000px)
-            margin-top:2rem
+            margin-top:1.2rem
             line-height:1.2rem
             color:white
           &:first-child
-            font-size:22px
+            font-size:20px
             @media screen and (max-width: 1000px)
               &:before
                 content:''
                 position:absolute
                 background-image:linear-gradient(90deg,transparent 0%,white 100%)
                 height:2px
-                width:120px
-                transform:translate(-130px,6px)
+                width:90px
+                transform:translate(-95px,6px)
               &:after
                 content:''
                 position:absolute
                 background-image:linear-gradient(270deg,transparent 0%,white 100%)
                 height:2px
-                width:120px
-                transform:translate(130px,-12px)
+                width:90px
+                transform:translate(125px,-12px)
           &:last-child
             transform:translateY(-18px)
             @media screen and (max-width: 1000px)
               display:none
       @media screen and (max-width: 1000px)
-        background:rgba(33,33,33,0.8) url('../assets/4.png')
+        background:rgba(33,33,33,0.7) url('../assets/4.png')
         background-blend-mode: multiply
         width:100%
         max-width:1000px
