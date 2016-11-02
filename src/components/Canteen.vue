@@ -3,7 +3,7 @@
   <big-title cn="会议餐饮" en ="Canteen" current="5"></big-title>
   <div class="container">
     <div class="pc">
-      <p>会议餐饮提供： <br><br><br>11日晚餐：“设计师之夜”晚宴        I       地点：君来世尊酒店兰花厅 <br>12日中餐：自助餐       I       地点：君来世尊酒店 <br>13日中餐：工作餐       I       地点：君来世尊酒店 <br><br><br><br><br><br><br><br><br>
+     <br> <p>会议餐饮提供： <br><br>11日晚餐：“设计师之夜”晚宴        I       地点：君来世尊酒店兰花厅 <br>12日中餐：自助餐       I       地点：君来世尊酒店 <br>13日中餐：工作餐       I       地点：君来世尊酒店 <br><br><br><br><br><br><br><br><br>
 
       </p>
     </div>

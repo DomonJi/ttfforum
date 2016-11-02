@@ -240,7 +240,7 @@ main
     position: relative
     margin: 0 auto
     @media screen and (max-width: 1000px)
-      padding:4.9% 0 0 0
+      padding:8% 0 0 0
     .item
       background:gray1
       width: 25%

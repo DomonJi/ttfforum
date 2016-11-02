@@ -63,10 +63,13 @@
                   </p>
               </div>
               <div class="text-container">
-                <p>
+                <p class="pc">
                 当你的企业多元化转型过程中寻找战略方向的时候，围绕经济学“最简线性模型”的一系列战略理念和决策工具将为你的企业提供最前沿的理论支撑。 <br>
                 ……
               </p>
+              <p class="mobile">
+              当你的企业多元化转型过程中寻找战略方向的时候，围绕经济学“最简线性模型”的一系列战略理念和决策工具将为你的企业提供最前沿的理论支撑。
+            </p>
               </div>
               <div class="more">
                 <span><a href="/introduction">更多</a></span>
@@ -319,6 +322,12 @@ main
           font-size:12px
           line-height:24px
           width:90%
+        .pc
+          @media screen and (max-width: 1000px)
+            display:none
+        .mobile
+          @media screen and (min-width: 1000px)
+            display:none
       .agenda
         width:158px
         height:100px

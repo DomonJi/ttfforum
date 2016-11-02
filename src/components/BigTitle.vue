@@ -14,10 +14,10 @@
     </div>
     <div class="phone">
       <a href="/schedule" :class="{active:current==1}"><span>  会议日程</span></a>
-      <a href="/workshop" :class="{active:current==1}"><span>  工作坊</span></a>
-      <a href="/guests" :class="{active:current==1}"><span>  嘉宾介绍</span></a>
-      <a href="/address" :class="{active:current==1}"><span>  会议地址</span></a>
-      <a href="/canteen" :class="{active:current==1}"><span>  会议餐饮</span></a>
+      <a href="/workshop" :class="{active:current==2}"><span>  工作坊</span></a>
+      <a href="/guests" :class="{active:current==3}"><span>  嘉宾介绍</span></a>
+      <a href="/address" :class="{active:current==4}"><span>  会议地址</span></a>
+      <a href="/canteen" :class="{active:current==5}"><span>  会议餐饮</span></a>
     </div>
   </div>
 </template>
@@ -113,7 +113,7 @@ export default {
       @media screen and (max-width: 1000px)
         display:none
   .phone
-    font-size:.7rem
+    font-size:.8rem
     z-index:5
     span
       cursor:pointer
@@ -123,9 +123,9 @@ export default {
     height:40px
     top:105px
     display:flex
-    padding:0 25px
+    padding:0 0 0 5%
     box-sizing:border-box
-    justify-content:space-around
+    justify-content:space-between
     /*transform:translateX(10px)*/
     align-items:center
     border-bottom:2px solid gray2
@@ -134,8 +134,12 @@ export default {
       z-index:100
       display:inline-block
       color:blacktext
-      .active
-        border-bottom:3px solid main-red
+      padding-bottom:10px
+      box-sizing:content-box
+      transform:translateY(5px)
+    .active
+      color:main-red
+      border-bottom:3px solid main-red
     @media screen and (min-width: 1000px)
       display:none
 </style>

@@ -1,14 +1,14 @@
 <template>
 <div id="app">
   <navigator></navigator>
-  <home></home>
+  <!-- <home></home> -->
   <!-- <guests></guests> -->
   <!-- <introduction></introduction> -->
   <!-- <workshop></workshop> -->
   <!-- <affairs></affairs> -->
   <!-- <schedule></schedule> -->
   <!-- <Canteen></Canteen> -->
-  <!-- <add></add> -->
+  <add></add>
   <!-- <registration></registration> -->
   <!-- <contact></contact> -->
   <!-- <router-view></router-view> -->

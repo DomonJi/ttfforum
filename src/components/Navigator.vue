@@ -102,7 +102,7 @@ header
       p
         border-bottom:1px solid white
       .disabled
-        color:blacktext
+        color:#909090
     .chacha
       cursor:pointer
       width:35px
@@ -118,14 +118,14 @@ header
     top: 33px
     color: #d2371d
     font-size: 16px
-    font-family: "黑体"
+    font-family: "SimHei"
   .actions
     position: absolute
     right: 0
     top: 73px
     color: #898989
     font-size: 12px
-    font-family: "Helvetica Neue","黑体"
+    font-family: "Helvetica Neue","SimHei"
     a+a:before
       content:'|'
       margin-right: 2px
@@ -134,7 +134,7 @@ header
     right: 0
     bottom: 15px
     font-size: 16px
-    font-family: "黑体"
+    font-family: "SimHei"
     span:not(:last-child)
       margin: 0px 16px
     span:last-child
