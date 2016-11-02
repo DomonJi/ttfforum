@@ -75,6 +75,7 @@ export default {
   position:absolute
   margin:0
   background-size:contain
+  z-index:2
 
 .image
   width:100%
@@ -114,9 +115,10 @@ export default {
         display:none
   .phone
     font-size:.8rem
-    z-index:5
+    z-index:50
     span
-      cursor:pointer
+      /*cursor:pointer*/
+      z-index:10
       width:20%
     width:100%
     position:absolute
@@ -131,9 +133,10 @@ export default {
     border-bottom:2px solid gray2
 
     p,a
-      z-index:100
+      z-index:10
       display:inline-block
       color:blacktext
+      cursor:pointer
       padding-bottom:10px
       box-sizing:content-box
       transform:translateY(5px)

@@ -23,7 +23,7 @@ export default {
 .container
     box-sizing:border-box
     @media screen and (max-width: 1000px)
-      padding:5%
+      padding:0 5%
 .title
   margin-top:40px
   margin-bottom:40px

@@ -119,8 +119,8 @@ main
     position: relative
     margin: 0 auto*/
     @media screen and (max-width: 1000px)
-      /*padding:0
-      transform:translateY(0)*/
+      padding-top:1.5%
+      /*transform:translateY(0)*/
     .item
       width: 50%
       max-width:500px

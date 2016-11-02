@@ -45,8 +45,6 @@ main
       font-size:18px
       line-height:28px
       margin:40px 5%
-      @media screen and (max-width: 1000px)
-        margin-top:10px
       &:first-line
         color:main-red
         font-size:20px

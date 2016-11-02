@@ -8,9 +8,9 @@
   <!-- <affairs></affairs> -->
   <!-- <schedule></schedule> -->
   <!-- <Canteen></Canteen> -->
-  <add></add>
+  <!-- <add></add> -->
   <!-- <registration></registration> -->
-  <!-- <contact></contact> -->
+  <contact></contact>
   <!-- <router-view></router-view> -->
   <foot></foot>
 </div>
@@ -100,8 +100,8 @@ main
   margin: 0 auto
   box-sizing:border-box
   @media screen and (max-width: 1000px)
-    transform:translateY(-60px)
-    padding:8% 0%
+    transform:translateY(-40px)
+    padding:0 0 8% 0%
   p
     @media screen and (max-width: 1000px)
       margin:5% 5%

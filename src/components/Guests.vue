@@ -14,7 +14,7 @@
           SUNCORP, Australia
         </p>
       </div>
-      <div class="item" id="item2">
+      <!-- <div class="item" id="item2">
         <div class="avator" id="avator2">
 
         </div>
@@ -23,9 +23,9 @@
         <br>
           美国模德模具亚太设计中心主管
         </p>
-      </div>
-      <div class="item" id="item3">
-        <div class="avator" id="avator3">
+      </div> -->
+      <div class="item" id="item2">
+        <div class="avator" id="avator2">
 
         </div>
         <p>
@@ -38,8 +38,8 @@
           卡秀堡辉控股有限公司
         </p>
       </div>
-      <div class="item" id="item4">
-        <div class="avator" id="avator4">
+      <div class="item" id="item3">
+        <div class="avator" id="avator3">
 
         </div>
         <p>
@@ -52,8 +52,8 @@ OEM Manager, Electronics, Greater China
 帝斯曼工程塑料(中国)有限公司
         </p>
       </div>
-      <div class="item" id="item5">
-        <div class="avator" id="avator5">
+      <div class="item" id="item4">
+        <div class="avator" id="avator4">
 
         </div>
         <p>
@@ -62,8 +62,8 @@ kaizor创新创始人、主任 <br>
 kaizor Founder
         </p>
       </div>
-      <div class="item" id="item6">
-        <div class="avator" id="avator6">
+      <div class="item" id="item5">
+        <div class="avator" id="avator5">
 
         </div>
         <p>
@@ -72,7 +72,19 @@ GE数码CXO <br>
 Chief Experience Officer, GE Digital,US
         </p>
       </div>
-      <div class="item" id="item7">
+      <div class="item" id="item6">
+        <div class="avator" id="avator6">
+
+        </div>
+        <p>
+          黄峰 Jason Feng Huang
+        <br>
+        2004年共同创立UXPA中国 <br>
+        Former Apple Store Chief Design, <br>
+        China
+        </p>
+      </div>
+      <!-- <div class="item" id="item7">
         <div class="avator" id="avator7">
 
         </div>
@@ -80,9 +92,9 @@ Chief Experience Officer, GE Digital,US
           王丰 Jason Huang <br>
 《哈佛商业评论》中文版首席撰稿人，深度采访过50余位全球商业领袖，第五届《财经》奖学金获得者
         </p>
-      </div>
-      <div class="item" id="item8">
-        <div class="avator" id="avator8">
+      </div> -->
+      <div class="item" id="item7">
+        <div class="avator" id="avator7">
 
         </div>
         <p>
@@ -92,8 +104,8 @@ Josh Westerhold <br>
 Senior Manager, NISSAN Future Lab
         </p>
       </div>
-      <div class="item" id="item9">
-        <div class="avator" id="avator9">
+      <div class="item" id="item8">
+        <div class="avator" id="avator8">
 
         </div>
         <p>
@@ -103,8 +115,8 @@ Marketing Manager <br>
 老虎粉末(太仓)有限公司
         </p>
       </div>
-      <div class="item" id="item10">
-        <div class="avator" id="avator10">
+      <div class="item" id="item9">
+        <div class="avator" id="avator9">
 
         </div>
         <p>
@@ -113,8 +125,8 @@ Marketing Manager <br>
 Scholar-in-Residence, Center for Social Design, Maryland Institute College of Art (MICA), US
         </p>
       </div>
-      <div class="item" id="item11">
-        <div class="avator" id="avator11">
+      <div class="item" id="item10">
+        <div class="avator" id="avator10">
 
         </div>
         <p>
@@ -122,6 +134,16 @@ Scholar-in-Residence, Center for Social Design, Maryland Institute College of Ar
 3C行业经理 <br>
 3C Industry Manager <br>
 沙伯基础化学(上海)有限公司
+        </p>
+      </div>
+      <div class="item" id="item11">
+        <div class="avator" id="avator11">
+
+        </div>
+        <p>
+          迈克·米勒 Michael Miller <br>
+美国Mold-Tech欧洲部设计总管 <br>
+Head of Design at Mold-Tech design studio in Europe, US
         </p>
       </div>
       <div class="item" id="item12">
@@ -240,7 +262,7 @@ main
     position: relative
     margin: 0 auto
     @media screen and (max-width: 1000px)
-      padding:8% 0 0 0
+      padding:1.6% 0 0 0
     .item
       background:gray1
       width: 25%
@@ -279,25 +301,25 @@ main
       #avator1
         background:url('../assets/guests/1.png')
       #avator2
-        background:url('../assets/guests/2.png')
-      #avator3
         background:url('../assets/guests/3.png')
-      #avator4
+      #avator3
         background:url('../assets/guests/4.png')
-      #avator5
+      #avator4
         background:url('../assets/guests/5.png')
-      #avator6
+      #avator5
         background:url('../assets/guests/6.png')
+      #avator6
+        background:url('../assets/guests/2.png')
       #avator7
-        background:url('../assets/guests/7.png')
-      #avator8
         background:url('../assets/guests/8.png')
-      #avator9
+      #avator8
         background:url('../assets/guests/9.png')
-      #avator10
+      #avator9
         background:url('../assets/guests/10.png')
-      #avator11
+      #avator10
         background:url('../assets/guests/11.png')
+      #avator11
+        background:url('../assets/guests/7.png')
       #avator12
         background:url('../assets/guests/12.png')
       #avator13

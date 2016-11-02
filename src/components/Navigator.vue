@@ -103,14 +103,6 @@ header
         border-bottom:1px solid white
       .disabled
         color:#909090
-    .chacha
-      cursor:pointer
-      width:35px
-      height:35px
-      background:url('../assets/chacha.png')
-      position:fixed
-      left:40px
-      top:20px
   #title
     position: absolute
     margin: 0
@@ -171,8 +163,12 @@ header
   height:120%
   position:fixed
   z-index:1000
+  top:0
+  bottom:0
+  left:0
+  right:0
   .phone
-    padding:15%
+    padding:100px 15%
     p,a
       width:85%
       color:gray1
@@ -187,5 +183,5 @@ header
     background:url('../assets/chacha.png')
     position:fixed
     left:40px
-    top:20px
+    top:40px
 </style>
