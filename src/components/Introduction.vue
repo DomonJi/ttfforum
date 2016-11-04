@@ -35,6 +35,9 @@ export default {
 p
   font-family:"黑体"
   font-size:18px
+  @media screen and (max-width: 1000px)
+    font-size:14px
+    color:#555
   br
     line-height:60px
 .title

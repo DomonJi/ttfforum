@@ -15,7 +15,7 @@
 3. 注意事项： <br>
 (1)会议发票开票项目为：服务费； <br>
 (2)发票会后工作人员会联系您开具发票； <br>
-(3)请务必填写手机号码，手机号码将会作为参会的唯一凭证。 <br><br><br><br><br><br>
+(3)请务必填写手机号码，手机号码将会作为参会的唯一凭证。 <br><br><br><br>
 
     </p>
     <hr class="maxhr">
@@ -43,6 +43,9 @@ main
     p
       font-size:18px
       line-height:28px
+      @media screen and (max-width: 1000px)
+        color:#555
+        font-size:14px
       &:first-line
         color:main-red
         font-size:22px

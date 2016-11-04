@@ -39,7 +39,7 @@
               </div>
               <div class="flexitem">
                 <div class="phoneitem" id="phoneitem1"><p>
-                  <a href="/workshop">会议日程工作坊</a>
+                  <a href="/schedule">会议日程</a><a href="/workshop">工作坊</a>
                 </p></div>
                 <div class="phoneitem" id="phoneitem2"><p>
                   <a href="/guests">嘉宾介绍</a>
@@ -99,7 +99,9 @@ main
     @media screen and (max-width: 1000px)
       height:180px
       background-size:cover
-      background-position:65% 100%
+      /*background-position:center*/
+    /*@media screen and (max-width: 320px)
+      background-position:50% 100%*/
     background:url('../assets/banner.png')
     background-repeat: no-repeat
     background-position: center
@@ -181,7 +183,7 @@ main
           width:120px
           height:34px
           line-height:34px
-        font-size:18px
+        font-size:20px
         font-family:"黑体"
         color:white
       @media screen and (max-width: 1000px)

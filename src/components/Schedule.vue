@@ -46,4 +46,5 @@ export default {
   margin-bottom:300px
   @media screen and (max-width: 1000px)
     height:300px
+    margin-top:-5%
 </style>
