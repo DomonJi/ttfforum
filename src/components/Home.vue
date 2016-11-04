@@ -1,6 +1,6 @@
 <template lang="html">
   <main>
-      <div class="slide"></div>
+      <div class="slide"><img src="../assets/banner.png" alt="" /></div>
       <div class="container-main">
           <div class="item" id="item1">
             <div class="baoming">
@@ -94,18 +94,24 @@ main
     clear: both
   .slide
     width: 100%
+    /*max-width:100%*/
     /*max-width:1000px*/
-    height: 500px
+    height: 100%
     @media screen and (max-width: 1000px)
       height:180px
       background-size:cover
       /*background-position:center*/
     /*@media screen and (max-width: 320px)
       background-position:50% 100%*/
-    background:url('../assets/banner.png')
-    background-repeat: no-repeat
-    background-position: center
-    /*background-size:cover*/
+    @media screen and (max-width: 1000px)
+      background:url('../assets/banner.png')
+      background-repeat: no-repeat
+      background-position: center
+      background-size:cover
+    img
+      width:100%
+      @media screen and (max-width: 1000px)
+        display:none
   .container-main
     width: 100%
     max-width:1000px

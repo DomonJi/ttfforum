@@ -17,7 +17,7 @@
         <div class="avator" id="avator2"></div>
         <p class="big">
           张寒凝 <br>
-江南大学设计学院副教授
+江南大学设计学院
         </p>
         <hr class="maxhr">
       </div>
@@ -58,7 +58,7 @@
         <div class="avator" id="avator4"></div>
         <p class="big">
           虞昊 <br>
-江南大学设计学院博士研究生
+江南大学设计学院
         </p>
         <hr class="maxhr">
       </div>
@@ -76,7 +76,7 @@
         <div class="avator" id="avator6"></div>
         <p class="big">
           王晰 <br>
-江南大学设计学院博士研究生
+江南大学设计学院
         </p>
         <hr class="maxhr">
       </div>
@@ -175,6 +175,9 @@ main
 
           margin:10px 6% 0
         transform:translateY(6px)
+        @media screen and (min-width: 1000px)
+          margin-left:12px
+          transform:translateY(15px)
         /*margin-left:12px*/
       h3
         font-size:22px
@@ -273,6 +276,9 @@ main
           /*width:30%*/
           margin:10px 5% 0
         transform:translateY(6px)
+        @media screen and (min-width: 1000px)
+          margin-left:12px
+          transform:translateY(15px)
         /*margin-left:12px*/
       h3
         font-size:22px
@@ -333,6 +339,9 @@ main
           /*width:30%*
           /*margin:10px 6% 0*/
         transform:translateY(6px)
+        @media screen and (min-width: 1000px)
+          margin-left:12px
+          transform:translateY(15px)
         /*margin-left:12px*/
       h3
         font-size:22px

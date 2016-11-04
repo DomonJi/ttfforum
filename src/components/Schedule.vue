@@ -36,7 +36,7 @@ export default {
   @media screen and (max-width: 1000px)
     display:none
 .schedule
-  background:url('../assets/Meeting.jpg')
+  background:url('../assets/Meeting.png')
   width:100%
   height:630px
   background-repeat:no-repeat
@@ -46,5 +46,7 @@ export default {
   margin-bottom:300px
   @media screen and (max-width: 1000px)
     height:300px
-    margin-top:-5%
+    margin-top:0
+  @media screen and (max-width: 320px)
+    margin-top:-10%
 </style>

@@ -7,8 +7,8 @@
       <div class="navinfo">
         <p id="title">2016 TTF论坛(I)暨第五届CMF趋势论坛</p>
         <div class="actions">
-            <a href="#" class="disabled">EN</a>
-            <a href="#">中文</a>
+            <a href="/en" class="disabled">EN</a>
+            <a href="/">中文</a>
         </div>
         <div class="nav">
             <span><a href="/">首页</a></span>
