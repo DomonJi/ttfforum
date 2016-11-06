@@ -59,7 +59,7 @@
                   <p>
                     大会介绍
                   </p><p>
-                    General Introduction
+                    Introduction
                   </p>
               </div>
               <div class="text-container">
@@ -97,13 +97,11 @@ main
     /*max-width:100%*/
     /*max-width:1000px*/
     height: 100%
-    @media screen and (max-width: 1000px)
-      height:180px
-      background-size:cover
       /*background-position:center*/
     /*@media screen and (max-width: 320px)
       background-position:50% 100%*/
     @media screen and (max-width: 1000px)
+      height:180px
       background:url('../assets/banner.png')
       background-repeat: no-repeat
       background-position: center

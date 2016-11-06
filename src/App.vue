@@ -3,14 +3,14 @@
   <navigator></navigator>
   <!-- <home></home> -->
   <!-- <guests></guests> -->
-  <!-- <introduction></introduction> -->
+  <introduction></introduction>
   <!-- <workshop></workshop> -->
   <!-- <affairs></affairs> -->
   <!-- <schedule></schedule> -->
   <!-- <Canteen></Canteen> -->
   <!-- <add></add> -->
   <!-- <registration></registration> -->
-  <contact></contact>
+  <!-- <contact></contact> -->
   <!-- <router-view></router-view> -->
   <foot></foot>
 </div>

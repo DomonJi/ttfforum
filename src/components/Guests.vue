@@ -9,9 +9,8 @@
         <p>
           安吉拉·迈耶 Angela Meyer
         <br>
-          Suncorp公司战略创新小组成员Strategic Options Lead
-        <br>
-          SUNCORP, Australia
+          Suncorp公司战略创新小组成员 <br>Strategic Options Lead
+          SUNCORP <br>Australia
         </p>
       </div>
       <!-- <div class="item" id="item2">
@@ -31,11 +30,10 @@
         <p>
           崔涛 Tao Cui
           <br>
-          CMF高级设计师
-          <br>
+          CMF高级设计师,
           Senior CMF Designer
           <br>
-          卡秀堡辉控股有限公司
+          卡秀堡辉控股有限公司 <br>CMW Holding Ltd. , China
         </p>
       </div>
       <div class="item" id="item3">
@@ -59,7 +57,7 @@ OEM Manager, Electronics, Greater China
         <p>
           伊莲∙安  Elaine Ann <br>
 kaizor创新创始人、主任 <br>
-kaizor Founder
+kaizor Founder, Hongkong
         </p>
       </div>
       <div class="item" id="item5">
@@ -68,7 +66,7 @@ kaizor Founder
         </div>
         <p>
           格雷戈∙彼得罗夫 Greg Petroff <br>
-GE数码CXO <br>
+GE数码CXO(首席体验官) <br>
 Chief Experience Officer, GE Digital,US
         </p>
       </div>
@@ -80,8 +78,7 @@ Chief Experience Officer, GE Digital,US
           黄峰 Jason Feng Huang
         <br>
         2004年共同创立UXPA中国 <br>
-        Former Apple Store Chief Design, <br>
-        China
+        Founder, Tang Innovation Shanghai, China
         </p>
       </div>
       <!-- <div class="item" id="item7">
@@ -101,7 +98,7 @@ Chief Experience Officer, GE Digital,US
           乔希∙韦斯特霍尔德 <br>
 Josh Westerhold <br>
 日产汽车公司未来实验室高级经理 <br>
-Senior Manager, NISSAN Future Lab
+Senior Manager, NISSAN Future Lab, US
         </p>
       </div>
       <div class="item" id="item8">
@@ -112,7 +109,7 @@ Senior Manager, NISSAN Future Lab
           柯烈华 Liehua Ke  <br>
 市场经理 <br>
 Marketing Manager <br>
-老虎粉末(太仓)有限公司
+老虎粉末(太仓)有限公司 <br> Tiger Drylac (Taicang) Co., Ltd. , China
         </p>
       </div>
       <div class="item" id="item9">
@@ -133,7 +130,7 @@ Scholar-in-Residence, Center for Social Design, Maryland Institute College of Ar
           刘超 Lucas Liu <br>
 3C行业经理 <br>
 3C Industry Manager <br>
-沙伯基础化学(上海)有限公司
+沙伯基础化学(上海)有限公司 <br> SABIC, China
         </p>
       </div>
       <div class="item" id="item11">
@@ -142,8 +139,8 @@ Scholar-in-Residence, Center for Social Design, Maryland Institute College of Ar
         </div>
         <p>
           迈克·米勒 Michael Miller <br>
-美国Mold-Tech欧洲部设计总管 <br>
-Head of Design at Mold-Tech design studio in Europe, US
+欧洲部设计总管 <br>
+Head of Design at Mold-Tech design studio in Europe, UK
         </p>
       </div>
       <div class="item" id="item12">
@@ -151,9 +148,9 @@ Head of Design at Mold-Tech design studio in Europe, US
 
         </div>
         <p>
-          邱耀弘博士 Dr. Yaohong Qiu <br>
-台湾地区电脑辅助成型技术交流协会主任委员 <br>
-ACMT主任委员
+          邱耀弘 Yaohong Qiu <br> 主任委员 <br>Directing Commissioner <br>
+台湾地区电脑辅助成型技术交流协会 <br>
+ACMT, Taiwan
         </p>
       </div>
       <div class="item" id="item13">
@@ -185,7 +182,7 @@ University,US
         </div>
         <p>
           Fei Wang <br>
-惠而浦美国
+惠而浦美国 <br> Whirlpool USA
         </p>
       </div>
       <div class="item" id="item16">
@@ -196,15 +193,15 @@ University,US
           王海宁 Haining Wang <br>
 市场经理 <br>
 Marketing Manager <br>
-爱色丽(上海)国际贸易有限公司
+爱色丽(上海)国际贸易有限公司 <br> X-Rite(Shanghai), China
         </p>
       </div>
       <div class="item" id="item17">
         <div class="avator" id="avator17">
         </div>
         <p>
-          王依民 Yimin Wang Professor <br>
-东华大学
+          王依民 Yimin Wang <br>教授 Professor <br>
+东华大学 <br> Donghua University, China
         </p>
       </div>
       <div class="item" id="item18">
@@ -214,7 +211,7 @@ Marketing Manager <br>
         <p>
           辛向阳 Xiangyang XIN <br>
 江南大学设计学院教授 <br>
-Professor, Dean of School of Design, Jiangnan University
+Professor, Dean of School of Design, Jiangnan University, China
         </p>
       </div>
       <div class="item" id="item19">
@@ -222,9 +219,8 @@ Professor, Dean of School of Design, Jiangnan University
         </div>
         <p>
           燕捷 Sylvia Yan <br>
-树脂技术部 开发经理 <br>
 Development Manager <br>
-阿科玛（中国）投资有限公司 <br>
+阿科玛（中国）投资有限公司 <br>Arkema(China)Investment Co.,Ltd. , China
         </p>
       </div>
       <div class="item" id="item20">

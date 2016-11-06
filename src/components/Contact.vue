@@ -8,8 +8,8 @@
 邮政编码：214106 <br>
 </p><hr class="maxhr"><p>
 [TTF] 会务组 <br>
-会议咨询：疏通 ＋86 13771057327 <br>
-          虞昊 ＋86 18914127130 <br>
+会议咨询：疏通 移动电话 ＋86 13771057327 <br>
+          虞昊 移动电话 ＋86  18914127130 <br>
 <br>
 电子邮箱：shutong@cmwcoatings.com <br>
 官方网站：http://ttfdesign.org <br>
