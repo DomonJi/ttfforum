@@ -3,8 +3,8 @@
   <navigator></navigator>
   <!-- <home></home> -->
   <!-- <guests></guests> -->
-  <introduction></introduction>
-  <!-- <workshop></workshop> -->
+  <!-- <introduction></introduction> -->
+  <workshop></workshop>
   <!-- <affairs></affairs> -->
   <!-- <schedule></schedule> -->
   <!-- <Canteen></Canteen> -->

@@ -118,7 +118,7 @@ Marketing Manager <br>
         </div>
         <p>
           李∙戴维斯 Lee Davis <br>
-马里兰艺术学院设计中心访问学者。 <br>
+马里兰艺术学院设计中心副主任。 <br>
 Scholar-in-Residence, Center for Social Design, Maryland Institute College of Art (MICA), US
         </p>
       </div>
