@@ -11,12 +11,12 @@
             <a href="/">中文</a>
         </div>
         <div class="nav">
-            <span><a href="/">首页</a></span>
+            <span><router-link to="/">首页</router-link></span>
             <span class="disabled">新闻资讯</span>
-            <span class="disabled">知识分享</span>
+            <span><router-link to="/sharing">知识分享</router-link></span>
             <span class="disabled">历届会议</span>
-            <span><a href="/affairs">会务组织</a></span>
-            <span><a href="/contact">联系我们</a></span>
+            <span><router-link to="/affairs">会务组织</router-link></span>
+            <span><router-link to="/contact">联系我们</router-link></span>
         </div>
       </div>
       <div class="navphone" id="nav-phone" v-if="clicked">
@@ -24,12 +24,12 @@
 
         </div>
         <div class="phone" >
-            <p><a href="/">首页</a></p>
+            <p><a href="/" >首页<a></p>
             <p class="disabled">新闻资讯</p>
             <p class="disabled">知识分享</p>
             <p class="disabled">历届会议</p>
-            <p><a href="/affairs">会务组织</a></p>
-            <p><a href="/contact">联系我们</a></p>
+            <p @click="clicked=false"><router-link to="/affairs">会务组织</router-link></p>
+            <p @click="clicked=false"><router-link to="/contact">联系我们</router-link></p>
         </div>
       </div>
   </header>

@@ -13,7 +13,7 @@ import Canteen from './components/Canteen'
 import Add from './components/Address'
 import Registration from './components/Registration'
 import Contact from './components/Contact'
-
+import Sharing from './components/Sharing'
 Vue.use(Router)
 const routes = [
   {
@@ -46,11 +46,16 @@ const routes = [
   }, {
     path: '/contact',
     component: Contact
+  },
+  {
+    path: '/sharing',
+    component: Sharing
   }
 ]
 
-const router = new Router(routes)
+const router = new Router({routes})
 new Vue({
+  el: '#app',
   router,
   render: h => h(App)
-}).$mount('#app')
+})

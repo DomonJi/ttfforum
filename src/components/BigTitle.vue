@@ -1,7 +1,6 @@
 <template lang="html">
   <div class="image">
     <a id="arr" href="/"><div class="return">
-
     </div></a>
 
     <div class="title">
@@ -13,11 +12,11 @@
       </p>
     </div>
     <div class="phone">
-      <a href="/schedule" :class="{active:current==1}"><span>  会议日程</span></a>
-      <a href="/workshop" :class="{active:current==2}"><span>  工作坊</span></a>
-      <a href="/guests" :class="{active:current==3}"><span>  嘉宾介绍</span></a>
-      <a href="/address" :class="{active:current==4}"><span>  会议地址</span></a>
-      <a href="/canteen" :class="{active:current==5}"><span>  会议餐饮</span></a>
+      <router-link to="/schedule" :class="{active:current==1}"><span>  会议日程</span></router-link>
+      <router-link to="/workshop" :class="{active:current==2}"><span>  工作坊</span></router-link>
+      <router-link to="/guests" :class="{active:current==3}"><span>  嘉宾介绍</span></router-link>
+      <router-link to="/address" :class="{active:current==4}"><span>  会议地址</span></router-link>
+      <router-link to="/canteen" :class="{active:current==5}"><span>  会议餐饮</span></router-link>
     </div>
   </div>
 </template>

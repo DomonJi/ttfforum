@@ -5,28 +5,28 @@
           <div class="item" id="item1">
             <div class="baoming">
               <p>
-                <a href="/registration">报名参会</a>
+                <router-link to="/registration">报名参会</router-link>
               </p>
             </div>
           </div>
           <div class="item" id="item2">
               <div class="subitem" id="subitem1">
                   <p>
-                      <a href="/schedule">11-12日会议日程</a>
+                      <router-link to="/schedule">11-12日会议日程</router-link>
                   </p>
                   <hr>
                   <p>
-                      <a href="/workshop">13日工作坊介绍</a>
+                      <router-link to="/workshop">13日工作坊介绍</router-link>
                   </p>
               </div>
               <div class="subitem" id="subitem2">
-                  <p><a href="/guests">嘉宾介绍</a></p>
+                  <p><router-link to="/guests">嘉宾介绍</router-link></p>
               </div>
               <div class="subitem" id="subitem3">
-                  <p><a href="/address">会议地址及交通</a></p>
+                  <p><router-link to="/address">会议地址及交通</router-link></p>
               </div>
               <div class="subitem" id="subitem4">
-                  <p><a href="/canteen">会议餐饮</a></p>
+                  <p><router-link to="/canteen">会议餐饮</router-link></p>
               </div>
 
           </div>
@@ -39,16 +39,16 @@
               </div>
               <div class="flexitem">
                 <div class="phoneitem" id="phoneitem1"><p>
-                  <a href="/schedule">会议日程</a><a href="/workshop">工作坊</a>
+                  <router-link to="/schedule">会议日程</router-link><router-link to="/workshop">工作坊</router-link>
                 </p></div>
                 <div class="phoneitem" id="phoneitem2"><p>
-                  <a href="/guests">嘉宾介绍</a>
+                  <router-link to="/guests">嘉宾介绍</router-link>
                 </p></div>
                 <div class="phoneitem" id="phoneitem3"><p>
-                  <a href="/address">会议地址与交通</a>
+                  <router-link to="/address">会议地址及交通</router-link>
                 </p></div>
                 <div class="phoneitem" id="phoneitem4"><p>
-                  <a href="/canteen">会议餐饮</a>
+                  <router-link to="/canteen">会议餐饮</router-link>
                 </p></div>
               </div>
 
@@ -72,7 +72,7 @@
             </p>
               </div>
               <div class="more">
-                <span><a href="/introduction">更多</a></span>
+                <span><router-link to="/introduction">更多</router-link></span>
                 <span id="arrow"></span>
               </div>
           </div>
