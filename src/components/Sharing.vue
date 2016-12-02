@@ -11,13 +11,13 @@
     <div class="item" id="item2">
       <div class="download">
         <span>精彩照片</span>
-        <span class="two"><a href="/photos.zip">下载</a></span>
+        <!-- <span class="two"><a href="/photos.zip">下载</a></span> -->
       </div>
     </div>
     <div class="item" id="item3">
       <div class="download">
         <span>论坛ppt</span>
-        <span class="two"><a href="/forum.ppt">下载</a></span>
+        <span class="two"><a href="https://pan.baidu.com/s/1hrTLN3u" target="_blank">下载</a></span>
       </div>
     </div>
   </div>
